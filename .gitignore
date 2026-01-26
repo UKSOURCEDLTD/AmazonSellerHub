@@ -1,0 +1,21 @@
+# General
+.DS_Store
+*.log
+
+# Backend / Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Firebase
+.firebase/
+firebase-debug.log
