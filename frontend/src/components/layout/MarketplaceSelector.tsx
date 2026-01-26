@@ -11,14 +11,14 @@ export default function MarketplaceSelector() {
     const marketplaces = selectedAccount.marketplaces || ['US'];
 
     return (
-        <div className="flex bg-gray-100 p-1 rounded-lg">
+        <div className="flex items-center gap-1 bg-gray-50 p-1 rounded-lg border border-gray-100">
             {marketplaces.map((mp) => (
                 <button
                     key={mp}
                     onClick={() => setSelectedMarketplace(mp)}
-                    className={`flex-1 px-3 py-1.5 text-xs font-medium rounded-md transition-all ${selectedMarketplace === mp
-                            ? 'bg-white text-gray-900 shadow-sm'
-                            : 'text-gray-500 hover:text-gray-700'
+                    className={`px-3 py-1.5 text-xs font-semibold rounded-md transition-all ${selectedMarketplace === mp
+                            ? 'bg-white text-gray-900 shadow-sm border border-gray-100'
+                            : 'text-gray-400 hover:text-gray-600'
                         }`}
                 >
                     {mp}

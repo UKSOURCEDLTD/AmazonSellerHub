@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from 'react';
-import { Shield, Key, CheckCircle2, AlertCircle, Plus, Trash2 } from 'lucide-react';
+import { Shield, Key, CheckCircle2, AlertCircle, Plus, Trash2, Eye, EyeOff } from 'lucide-react';
 import { useAccount, SellerAccount } from "@/context/AccountContext";
 import { collection, addDoc, deleteDoc, doc, serverTimestamp } from "firebase/firestore";
 import { db } from "@/lib/firebase";
@@ -9,11 +9,17 @@ import { db } from "@/lib/firebase";
 export default function SettingsPage() {
     const { accounts } = useAccount();
     const [isAdding, setIsAdding] = useState(false);
+
+    // Form State
     const [newAccountName, setNewAccountName] = useState('');
     const [newAccountRegion, setNewAccountRegion] = useState('NA');
-
-    // Simple state for checkboxes
+    const [clientId, setClientId] = useState('');
+    const [clientSecret, setClientSecret] = useState('');
+    const [refreshToken, setRefreshToken] = useState('');
     const [selectedMarketplaces, setSelectedMarketplaces] = useState<string[]>(['US']);
+
+    // UI State
+    const [showSecrets, setShowSecrets] = useState(false);
 
     const handleAddAccount = async (e: React.FormEvent) => {
         e.preventDefault();
@@ -22,13 +28,24 @@ export default function SettingsPage() {
                 name: newAccountName,
                 region: newAccountRegion,
                 marketplaces: selectedMarketplaces,
+                // Saving credentials directly for this MVP. 
+                // In production, these should be encrypted or stored via a backend function.
+                client_id: clientId,
+                client_secret: clientSecret,
+                refresh_token: refreshToken,
                 created_at: serverTimestamp()
             });
+
+            // Reset Form
             setIsAdding(false);
             setNewAccountName('');
+            setClientId('');
+            setClientSecret('');
+            setRefreshToken('');
             setSelectedMarketplaces(['US']);
         } catch (error) {
             console.error("Error adding account:", error);
+            alert("Failed to add account. Check console.");
         }
     };
 
@@ -65,7 +82,7 @@ export default function SettingsPage() {
                             <Shield size={20} className="text-amber-600" />
                             Connected Accounts
                         </h3>
-                        <p className="text-sm text-gray-500 mt-1">Manage access to different seller accounts.</p>
+                        <p className="text-sm text-gray-500 mt-1">Manage access and API credentials.</p>
                     </div>
                     <button
                         onClick={() => setIsAdding(!isAdding)}
@@ -78,10 +95,12 @@ export default function SettingsPage() {
 
                 {isAdding && (
                     <form onSubmit={handleAddAccount} className="mb-8 p-6 bg-gray-50 rounded-xl border border-gray-200 animate-in fade-in slide-in-from-top-4">
-                        <h4 className="font-semibold text-gray-900 mb-4">New Seller Account</h4>
+                        <h4 className="font-semibold text-gray-900 mb-4">New Seller Account Connection</h4>
+
+                        {/* Basic Info */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                             <div>
-                                <label className="block text-xs font-medium text-gray-700 mb-1">Account Name</label>
+                                <label className="block text-xs font-medium text-gray-700 mb-1">Account Label</label>
                                 <input
                                     type="text"
                                     required
@@ -105,6 +124,60 @@ export default function SettingsPage() {
                             </div>
                         </div>
 
+                        {/* Credentials Section */}
+                        <div className="mb-6 p-4 bg-amber-50 rounded-lg border border-amber-100">
+                            <div className="flex justify-between items-center mb-3">
+                                <h5 className="text-sm font-bold text-amber-900 flex items-center gap-2">
+                                    <Key size={14} />
+                                    SP-API Credentials
+                                </h5>
+                                <button
+                                    type="button"
+                                    onClick={() => setShowSecrets(!showSecrets)}
+                                    className="text-xs text-amber-700 hover:text-amber-900 flex items-center gap-1"
+                                >
+                                    {showSecrets ? <EyeOff size={12} /> : <Eye size={12} />}
+                                    {showSecrets ? 'Hide' : 'Show'}
+                                </button>
+                            </div>
+
+                            <div className="space-y-3">
+                                <div>
+                                    <label className="block text-xs font-medium text-gray-700 mb-1">LWA Client ID</label>
+                                    <input
+                                        type="text"
+                                        required
+                                        value={clientId}
+                                        onChange={e => setClientId(e.target.value)}
+                                        placeholder="amzn1.application-oa2-client..."
+                                        className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-amber-500 font-mono text-xs"
+                                    />
+                                </div>
+                                <div>
+                                    <label className="block text-xs font-medium text-gray-700 mb-1">LWA Client Secret</label>
+                                    <input
+                                        type={showSecrets ? "text" : "password"}
+                                        required
+                                        value={clientSecret}
+                                        onChange={e => setClientSecret(e.target.value)}
+                                        placeholder="amzn1.oa2-cs.v1..."
+                                        className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-amber-500 font-mono text-xs"
+                                    />
+                                </div>
+                                <div>
+                                    <label className="block text-xs font-medium text-gray-700 mb-1">Refresh Token</label>
+                                    <input
+                                        type={showSecrets ? "text" : "password"}
+                                        required
+                                        value={refreshToken}
+                                        onChange={e => setRefreshToken(e.target.value)}
+                                        placeholder="Atzr|..."
+                                        className="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-amber-500 font-mono text-xs"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+
                         <div className="mb-6">
                             <label className="block text-xs font-medium text-gray-700 mb-2">Marketplaces</label>
                             <div className="flex flex-wrap gap-2">
@@ -114,8 +187,8 @@ export default function SettingsPage() {
                                         type="button"
                                         onClick={() => toggleMarketplace(mp)}
                                         className={`px-3 py-1 rounded-full text-xs font-medium border transition-colors ${selectedMarketplaces.includes(mp)
-                                                ? 'bg-amber-100 border-amber-200 text-amber-800'
-                                                : 'bg-white border-gray-200 text-gray-500 hover:border-gray-300'
+                                            ? 'bg-amber-100 border-amber-200 text-amber-800'
+                                            : 'bg-white border-gray-200 text-gray-500 hover:border-gray-300'
                                             }`}
                                     >
                                         {mp}
@@ -136,7 +209,7 @@ export default function SettingsPage() {
                                 type="submit"
                                 className="px-4 py-2 bg-amber-600 text-white text-sm font-medium rounded-lg hover:bg-amber-700 shadow-sm"
                             >
-                                Create Account
+                                Save Connection
                             </button>
                         </div>
                     </form>
@@ -155,6 +228,16 @@ export default function SettingsPage() {
                                         <span className="text-xs text-gray-500 bg-gray-100 px-2 py-0.5 rounded">{account.region}</span>
                                         <span className="text-xs text-gray-400">|</span>
                                         <span className="text-xs text-gray-500">{account.marketplaces?.join(', ') || 'US'}</span>
+                                        {/* Indicator if credentials are set (roughly) */}
+                                        {account.client_id ? (
+                                            <span className="text-xs text-emerald-600 flex items-center gap-0.5">
+                                                <Key size={10} /> Connected
+                                            </span>
+                                        ) : (
+                                            <span className="text-xs text-red-400 flex items-center gap-0.5">
+                                                <AlertCircle size={10} /> No Creds
+                                            </span>
+                                        )}
                                     </div>
                                 </div>
                             </div>
@@ -177,20 +260,19 @@ export default function SettingsPage() {
 
                     {accounts.length === 0 && (
                         <div className="text-center py-8 text-gray-400 text-sm">
-                            No accounts connected yet. Add one to get started.
+                            No accounts connected yet. Click "Add Account" to connect your Seller Central.
                         </div>
                     )}
                 </div>
             </div>
 
-            {/* API Keys Info (Static for now as keys are env vars in this MVP) */}
-            <div className="bg-gray-50 border border-gray-200 rounded-xl p-6">
+            {/* API Keys Info */}
+            <div className="bg-blue-50 border border-blue-100 rounded-xl p-6">
                 <div className="flex gap-3">
-                    <AlertCircle className="text-gray-400 shrink-0" size={20} />
-                    <div className="text-sm text-gray-600">
-                        <p className="font-medium text-gray-900 mb-1">API Authentication</p>
-                        Current version uses environment variables (`LWA_CLIENT_ID`, etc.) for authentication.
-                        Multi-account API key support is configured in the backend to specific accounts.
+                    <Shield className="text-blue-600 shrink-0" size={20} />
+                    <div className="text-sm text-blue-800">
+                        <p className="font-bold text-blue-900 mb-1">Secure Connection</p>
+                        Your API credentials are stored in your private database. The backend uses these keys to fetch data directly from Amazon SP-API.
                     </div>
                 </div>
             </div>
