@@ -69,14 +69,7 @@ export default function AccountSelector() {
                         ))}
                     </div>
 
-                    <div className="border-t border-gray-100 mt-1 pt-1">
-                        {/* In real implementation, this would likely open a modal or navigate to settings. 
-                            For now, we can link to settings or just indicate it adds account. 
-                        */}
-                        <a href="/settings" className="w-full block text-left px-3 py-2 text-xs text-blue-600 hover:bg-blue-50 rounded-lg font-medium transition-colors">
-                            + Add New Account
-                        </a>
-                    </div>
+                    {/* Add Account removed for hardcoded version */}
                 </div>
             )}
         </div>

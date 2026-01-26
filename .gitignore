@@ -7,7 +7,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 venv/
-.env
+.env.local
+setup_secrets.ps1
 
 # Node / Next.js
 node_modules/

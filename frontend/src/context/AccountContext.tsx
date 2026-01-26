@@ -1,8 +1,6 @@
 "use client";
 
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { collection, onSnapshot, query, orderBy } from 'firebase/firestore';
-import { db } from '@/lib/firebase';
 
 export interface SellerAccount {
     id: string;
@@ -26,43 +24,29 @@ interface AccountContextType {
 const AccountContext = createContext<AccountContextType | undefined>(undefined);
 
 export function AccountProvider({ children }: { children: ReactNode }) {
-    const [accounts, setAccounts] = useState<SellerAccount[]>([]);
-    const [selectedAccount, setSelectedAccount] = useState<SellerAccount | null>(null);
+    // Hardcoded default account
+    const defaultAccount: SellerAccount = {
+        id: "default_account_1",
+        name: "Default Account",
+        region: "NA", // Assuming North America based on typical usage
+        marketplaces: ["US"],
+        client_id: process.env.NEXT_PUBLIC_LWA_CLIENT_ID,
+        client_secret: process.env.NEXT_PUBLIC_LWA_CLIENT_SECRET,
+        refresh_token: process.env.NEXT_PUBLIC_SP_API_REFRESH_TOKEN
+    };
+
+    const [accounts, setAccounts] = useState<SellerAccount[]>([defaultAccount]);
+    const [selectedAccount, setSelectedAccount] = useState<SellerAccount | null>(defaultAccount);
     const [selectedMarketplace, setSelectedMarketplace] = useState<string>('US');
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(false);
 
-    // Fetch accounts from Firestore
     useEffect(() => {
-        const q = query(collection(db, 'seller_accounts'), orderBy('name'));
-        const unsubscribe = onSnapshot(q, (snapshot) => {
-            const fetchedAccounts = snapshot.docs.map(doc => ({
-                id: doc.id,
-                ...doc.data()
-            })) as SellerAccount[];
-
-            setAccounts(fetchedAccounts);
-
-            // Auto-select first account if none selected
-            if (fetchedAccounts.length > 0 && !selectedAccount) {
-                setSelectedAccount(fetchedAccounts[0]);
-                // Default to first marketplace of that account or US
-                const defaultMp = fetchedAccounts[0].marketplaces && fetchedAccounts[0].marketplaces.length > 0
-                    ? fetchedAccounts[0].marketplaces[0]
-                    : 'US';
-                setSelectedMarketplace(defaultMp);
-            }
-
-            setLoading(false);
-        }, (error) => {
-            console.error("Error fetching seller accounts:", error);
-            setLoading(false);
-        });
-
-        return () => unsubscribe();
-    }, []); // Run once on mount
-
-    // Update marketplace when account changes if current marketplace is invalid for new account - Optional logic
-    // For now we keep it simple.
+        // Enforce the default account execution
+        if (!selectedAccount) {
+            setSelectedAccount(defaultAccount);
+            setSelectedMarketplace('US');
+        }
+    }, [selectedAccount, defaultAccount]);
 
     const value = {
         accounts,

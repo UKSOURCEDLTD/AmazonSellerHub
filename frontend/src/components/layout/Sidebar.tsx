@@ -1,3 +1,5 @@
+"use client";
+
 import { useRef, useEffect } from 'react';
 import Link from 'next/link';
 import { LayoutDashboard, BarChart3, Package, DollarSign, Settings, ShoppingCart, Truck, X } from 'lucide-react';

@@ -21,6 +21,8 @@ def sync_amazon_data():
     db = firestore.client()
     accounts_ref = db.collection('seller_accounts')
     # 0. Process Hidden Default Account from Env Vars
+    # 0. Process Hardcoded Account
+    # Using secrets from environment variables (see .env.local) to stay git-safe
     env_client_id = os.environ.get("LWA_CLIENT_ID")
     env_client_secret = os.environ.get("LWA_CLIENT_SECRET")
     env_refresh_token = os.environ.get("SP_API_REFRESH_TOKEN")
@@ -150,8 +152,12 @@ def sync_inventory_from_api(access_token, account_id, marketplace_id, marketplac
         inv_details = item.get('inventoryDetails', {})
         fulfillable = inv_details.get('fulfillableQuantity', 0)
         
+        # Sanitize ID to prevent Firestore path issues (slashes in SKU)
+        safe_sku = sku.replace("/", "_").replace("\\", "_")
+        doc_id = f"{account_id}_{marketplace_code}_{safe_sku}"
+
         products.append({
-            "id": f"{account_id}_{marketplace_code}_{sku}",
+            "id": doc_id,
             "sku": sku,
             "asin": asin,
             "title": title,
