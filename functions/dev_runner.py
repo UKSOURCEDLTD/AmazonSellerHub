@@ -10,7 +10,7 @@ load_dotenv()
 if not firebase_admin._apps:
     cred = credentials.ApplicationDefault()
     firebase_admin.initialize_app(cred, {
-        'projectId': 'amazon-grid-hub', # Real Project ID
+        'projectId': 'amz-seller-hub', # Real Project ID
     })
 
 from sp_api_sync import sync_amazon_data
