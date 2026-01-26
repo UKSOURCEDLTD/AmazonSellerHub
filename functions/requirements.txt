@@ -1,5 +1,7 @@
 firebase-functions
 firebase-admin
 google-cloud-secret-manager
-google-cloud-aiplatform
 requests
+flask
+flask-cors
+python-dotenv

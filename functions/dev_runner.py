@@ -18,6 +18,7 @@ if not firebase_admin._apps:
         })
     except Exception as e:
         print(f"Warning: Firebase Auth failed: {e}")
+        print("Hint: Make sure you have set GOOGLE_APPLICATION_CREDENTIALS or ran 'gcloud auth application-default login'")
 
 app = Flask(__name__)
 CORS(app)

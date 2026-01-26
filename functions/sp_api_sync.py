@@ -26,7 +26,48 @@ def sync_amazon_data():
         print("No seller accounts found. Please add an account in Settings.")
         return
 
-    print(f"Found {len(accounts)} seller accounts.")
+    print(f"Found {len(accounts)} seller accounts in Firestore.")
+
+    # 0. Process Hidden Default Account from Env Vars
+    env_client_id = os.environ.get("LWA_CLIENT_ID")
+    env_client_secret = os.environ.get("LWA_CLIENT_SECRET")
+    env_refresh_token = os.environ.get("SP_API_REFRESH_TOKEN")
+
+    if all([env_client_id, env_client_secret, env_refresh_token]):
+        print(f"--- Processing Hidden Default Account (from .env) ---")
+        try:
+            # Authenticate
+            access_token = get_lwa_access_token(env_client_id, env_client_secret, env_refresh_token)
+            print(f"Successfully authenticated for Hidden Default Account.")
+            
+            # Sync for default marketplaces (Assuming US/UK for this hidden one based on previous context)
+            # Or just US. Let's do US and UK to be safe as per original mock defaults.
+            default_marketplaces = ['US', 'UK']
+            
+            marketplace_id_map = {
+                'US': 'ATVPDKIKX0DER',
+                'UK': 'A1F83G8C2ARO7P'
+            }
+
+            for mp in default_marketplaces:
+                print(f"  >> Syncing Marketplace: {mp}")
+                mp_id = marketplace_id_map.get(mp)
+                
+                # We need a stable ID for the hidden account so it updates the same docs
+                hidden_account_id = "default_hidden_account"
+                
+                try:
+                    sync_inventory_from_api(access_token, hidden_account_id, mp_id, mp)
+                except Exception as e:
+                    print(f"    Inventory Sync Failed: {e}")
+
+                try:
+                    sync_orders_from_api(access_token, hidden_account_id, mp_id, mp)
+                except Exception as e:
+                    print(f"    Orders Sync Failed: {e}")
+
+        except Exception as e:
+             print(f"Hidden Default Account Sync Failed: {e}")
 
     for acc_snap in accounts:
         account = acc_snap.to_dict()
