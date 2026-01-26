@@ -1,36 +1,74 @@
 "use client";
 
-import { useState } from 'react';
-import { Save, Calculator, AlertCircle, DollarSign, TrendingUp, TrendingDown } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Save, Calculator, AlertCircle, DollarSign } from 'lucide-react';
+import { db } from "@/lib/firebase";
+import { collection, getDocs, writeBatch, doc } from "firebase/firestore";
 
-// Mock Product List for COGS entry
-const MOCK_PRODUCTS = [
-    { id: 1, title: 'Wireless Ergonomic Mouse - 2.4G', sku: 'MS-ERGO-2024', image: '', current_cogs: 8.50 },
-    { id: 2, title: 'Mechanical Gaming Keyboard RGB', sku: 'KB-MECH-RGB', image: '', current_cogs: 24.00 },
-    { id: 3, title: 'USB-C Docking Station 9-in-1', sku: 'HUB-USBC-9', image: '', current_cogs: 18.25 },
-];
+interface Product {
+    id: string;
+    title: string;
+    sku: string;
+    image: string;
+    current_cogs: number;
+    stock_level?: number;
+}
 
 export default function FinancePage() {
-    const [cogsData, setCogsData] = useState(MOCK_PRODUCTS);
+    const [cogsData, setCogsData] = useState<Product[]>([]);
     const [unsavedChanges, setUnsavedChanges] = useState(false);
+    const [loading, setLoading] = useState(true);
 
-    // Profit Calculation Mock
+    // Fetch Inventory from Firestore
+    useEffect(() => {
+        const fetchInventory = async () => {
+            try {
+                const querySnapshot = await getDocs(collection(db, "inventory"));
+                const products: Product[] = querySnapshot.docs.map(doc => {
+                    const data = doc.data();
+                    return {
+                        id: doc.id,
+                        title: data.title || "Unknown Product",
+                        sku: data.sku || "N/A",
+                        image: data.image || "",
+                        current_cogs: data.cogs || 0, // Default to 0 if missing
+                        stock_level: data.stock_level || 0
+                    };
+                });
+                setCogsData(products);
+            } catch (error) {
+                console.error("Error fetching inventory:", error);
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        fetchInventory();
+    }, []);
+
+    // Profit Calculation Constants (Mocked for now, or could be fetched)
     const GROSS_SALES = 124000.00;
     const REFUNDS = 3200.50;
     const PROMOS = 1500.00;
     const ADS = 12500.00;
     const AMAZON_FEES = 38000.00;
 
-    // Dynamic COGS Total based on mock sales volume (simplified)
-    // Real app would sum (units_sold * cogs) per SKUs
+    // Dynamic COGS Total based on stock/sales logic
+    // Using stock_level as a proxy for sales volume allocation or just sum of all cogs * some estimated sales ratio
+    // For this simple view, we'll approximate: Sum of (COGS * 10% of stock) as if we sold 10% of inventory? 
+    // OR just use the example logic: ESTIMATED_UNITS_SOLD * AVG_COGS
     const ESTIMATED_UNITS_SOLD = 2500;
-    const AVG_COGS = cogsData.reduce((acc, curr) => acc + curr.current_cogs, 0) / cogsData.length;
-    const TOTAL_COGS = ESTIMATED_UNITS_SOLD * AVG_COGS;
+    const validCogsCount = cogsData.filter(p => p.current_cogs > 0).length;
+    const avgCogs = validCogsCount > 0
+        ? cogsData.reduce((acc, curr) => acc + curr.current_cogs, 0) / validCogsCount
+        : 0;
+
+    const TOTAL_COGS = ESTIMATED_UNITS_SOLD * avgCogs;
 
     const NET_PROFIT = GROSS_SALES - REFUNDS - PROMOS - ADS - AMAZON_FEES - TOTAL_COGS;
-    const MARGIN = (NET_PROFIT / GROSS_SALES) * 100;
+    const MARGIN = GROSS_SALES > 0 ? (NET_PROFIT / GROSS_SALES) * 100 : 0;
 
-    const handleCogsChange = (id: number, newValue: string) => {
+    const handleCogsChange = (id: string, newValue: string) => {
         const val = parseFloat(newValue);
         if (isNaN(val)) return;
 
@@ -38,11 +76,28 @@ export default function FinancePage() {
         setUnsavedChanges(true);
     };
 
-    const handleSave = () => {
-        // Save to Firestore logic here
-        setUnsavedChanges(false);
-        alert("COGS updated successfully!"); // Replace with toast
+    const handleSave = async () => {
+        try {
+            const batch = writeBatch(db);
+            cogsData.forEach(product => {
+                // Only update if we have a value, relying on front-end state
+                // Ideally track dirty fields, but batching all is okay for small sets
+                const docRef = doc(db, "inventory", product.id);
+                batch.update(docRef, { cogs: product.current_cogs });
+            });
+
+            await batch.commit();
+            setUnsavedChanges(false);
+            alert("COGS updated successfully!");
+        } catch (error) {
+            console.error("Error saving COGS:", error);
+            alert("Failed to save changes.");
+        }
     };
+
+    if (loading) {
+        return <div className="p-10 text-center">Loading Financial Data...</div>;
+    }
 
     return (
         <div className="space-y-8">
@@ -68,7 +123,7 @@ export default function FinancePage() {
 
                     <div className="space-y-4">
                         <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
-                            <span className="font-medium text-gray-700">Gross Sales</span>
+                            <span className="font-medium text-gray-700">GROSS Sales (Mock)</span>
                             <span className="font-bold text-gray-900 text-lg">${GROSS_SALES.toLocaleString()}</span>
                         </div>
 
@@ -92,7 +147,7 @@ export default function FinancePage() {
                         </div>
 
                         <div className="flex justify-between items-center p-3 border border-amber-100 bg-amber-50/50 rounded-lg">
-                            <span className="font-medium text-amber-900">Cost of Goods Sold (Total)</span>
+                            <span className="font-medium text-amber-900">Cost of Goods Sold (Est.)</span>
                             <span className="font-bold text-amber-700">-${TOTAL_COGS.toLocaleString(undefined, { maximumFractionDigits: 2 })}</span>
                         </div>
 
@@ -109,7 +164,7 @@ export default function FinancePage() {
                 </div>
 
                 {/* COGS Entry */}
-                <div className="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm flex flex-col">
+                <div className="bg-white rounded-2xl border border-gray-100 p-6 shadow-sm flex flex-col h-[600px]">
                     <div className="flex justify-between items-start mb-4">
                         <div>
                             <h3 className="text-lg font-bold text-gray-900">Unit Costs (COGS)</h3>
@@ -127,11 +182,12 @@ export default function FinancePage() {
                     </div>
 
                     <div className="flex-1 overflow-y-auto pr-2 space-y-3">
+                        {cogsData.length === 0 && <p className="text-sm text-gray-400">No inventory found.</p>}
                         {cogsData.map((product) => (
                             <div key={product.id} className="p-3 border border-gray-100 rounded-xl hover:border-amber-200 transition-colors group">
                                 <p className="font-medium text-sm text-gray-900 truncate mb-2">{product.title}</p>
                                 <div className="flex justify-between items-center">
-                                    <span className="text-xs font-mono text-gray-400 bg-gray-50 px-1 rounded">{product.sku}</span>
+                                    <span className="text-xs font-mono text-gray-400 bg-gray-50 px-1 rounded truncate max-w-[100px]" title={product.sku}>{product.sku}</span>
                                     <div className="flex items-center gap-2">
                                         <span className="text-xs text-gray-400">Unit Cost:</span>
                                         <div className="relative">
@@ -139,9 +195,10 @@ export default function FinancePage() {
                                             <input
                                                 type="number"
                                                 step="0.01"
-                                                value={product.current_cogs}
+                                                value={product.current_cogs || ''}
                                                 onChange={(e) => handleCogsChange(product.id, e.target.value)}
-                                                className="w-24 pl-6 pr-2 py-1 text-sm border border-gray-200 rounded-md focus:outline-none focus:ring-1 focus:ring-amber-500 text-right font-medium"
+                                                className={`w-24 pl-6 pr-2 py-1 text-sm border rounded-md focus:outline-none focus:ring-1 focus:ring-amber-500 text-right font-medium ${product.current_cogs === 0 ? 'border-red-300 bg-red-50' : 'border-gray-200'}`}
+                                                placeholder="0.00"
                                             />
                                         </div>
                                     </div>
@@ -151,7 +208,7 @@ export default function FinancePage() {
                     </div>
 
                     {!unsavedChanges && (
-                        <div className="mt-4 p-3 bg-blue-50 text-blue-700 text-xs rounded-lg flex gap-2 items-start">
+                        <div className="mt-4 p-3 bg-blue-50 text-blue-700 text-xs rounded-lg flex gap-2 items-start shrink-0">
                             <AlertCircle size={14} className="mt-0.5" />
                             <p>All costs are up to date. P&L calculations are based on these values.</p>
                         </div>

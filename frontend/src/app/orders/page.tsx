@@ -2,18 +2,33 @@
 
 import { useState, useEffect } from 'react';
 import { Search, Filter, ShoppingCart, DollarSign, Package, Truck, CheckCircle, Clock } from 'lucide-react';
-import { collection, getDocs } from "firebase/firestore";
+import { collection, getDocs, query, where, orderBy } from "firebase/firestore";
 import { db } from "@/lib/firebase";
+import { useAccount } from "@/context/AccountContext";
 
 export default function OrdersPage() {
+    const { selectedAccount, selectedMarketplace } = useAccount();
     const [filter, setFilter] = useState('All');
     const [orders, setOrders] = useState<any[]>([]);
     const [loading, setLoading] = useState(true);
 
     const fetchOrders = async () => {
+        if (!selectedAccount) return;
+
         setLoading(true);
         try {
-            const querySnapshot = await getDocs(collection(db, "orders"));
+            // Filter by Account and Marketplace
+            // Note: In a real app complexity, you might need composite indexes for this query
+            // collection('orders'), where('accountId', '==', ...), where('marketplaceId', '==', ...)
+
+            const q = query(
+                collection(db, "orders"),
+                where("accountId", "==", selectedAccount.id),
+                where("marketplaceId", "==", selectedMarketplace)
+                // orderBy("purchase_date", "desc") // Requires index, doing client side sort for now
+            );
+
+            const querySnapshot = await getDocs(q);
             const data = querySnapshot.docs.map(doc => doc.data());
 
             // Sort client-side for simplicity as basic query
@@ -28,8 +43,10 @@ export default function OrdersPage() {
     };
 
     useEffect(() => {
-        fetchOrders();
-    }, []);
+        if (selectedAccount) {
+            fetchOrders();
+        }
+    }, [selectedAccount, selectedMarketplace]);
 
     const filteredData = filter === 'All'
         ? orders
@@ -53,13 +70,19 @@ export default function OrdersPage() {
         }
     };
 
+    if (!selectedAccount) {
+        return <div className="p-8 text-center text-gray-500">Please select an account.</div>;
+    }
+
     return (
         <div className="space-y-6">
             {/* Header / Controls */}
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                 <div>
                     <h2 className="text-2xl font-bold text-gray-900">Orders Management</h2>
-                    <p className="text-gray-500 text-sm mt-1">View recent orders, fees, and net proceeds.</p>
+                    <p className="text-gray-500 text-sm mt-1">
+                        Viewing orders for <span className="font-semibold text-gray-900">{selectedAccount.name}</span> ({selectedMarketplace})
+                    </p>
                 </div>
 
                 <div className="flex gap-2 w-full md:w-auto">
@@ -119,7 +142,7 @@ export default function OrdersPage() {
                                 <tr><td colSpan={6} className="p-8 text-center text-gray-400">Loading orders...</td></tr>
                             ) : filteredData.length === 0 ? (
                                 <tr><td colSpan={6} className="p-12 text-center text-gray-400">
-                                    {orders.length === 0 ? "No orders found. Run the sync script!" : "No orders matching filter."}
+                                    {orders.length === 0 ? "No orders found for this account/marketplace." : "No orders matching filter."}
                                 </td></tr>
                             ) : (
                                 filteredData.map((order) => (

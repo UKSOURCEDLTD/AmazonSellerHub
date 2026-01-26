@@ -19,6 +19,10 @@
         ],
         "rewrites": [
             {
+                "source": "/api/manual_amazon_sync",
+                "function": "manual_amazon_sync"
+            },
+            {
                 "source": "**",
                 "destination": "/index.html"
             }
