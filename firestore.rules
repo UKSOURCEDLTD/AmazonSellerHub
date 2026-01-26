@@ -16,7 +16,7 @@ service cloud.firestore {
     // IMPORTANT: Lock this down before production!
     match /{document=**} {
       allow read: if true;
-      allow write: if false;
+      allow write: if isOwner(request.auth.uid);
     }
   }
 }
