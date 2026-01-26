@@ -1,10 +1,12 @@
 "use client";
 
 import { useState } from 'react';
-import { Bell, Search, RefreshCw, Loader2, CheckCircle, XCircle } from 'lucide-react';
+import { Bell, Search, RefreshCw, Loader2, CheckCircle, XCircle, Menu } from 'lucide-react';
 import Image from 'next/image';
+import { useSidebar } from '@/context/SidebarContext';
 
 const Header = () => {
+    const { toggleMobileSidebar } = useSidebar();
     const [syncing, setSyncing] = useState(false);
     const [status, setStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
@@ -40,11 +42,22 @@ const Header = () => {
     };
 
     return (
-        <header className="h-16 bg-white border-b border-gray-100 flex items-center justify-between px-8">
-            <div className="flex items-center gap-2 text-sm">
-                <span className="text-gray-400">Dashboard</span>
-                <span className="text-gray-300">/</span>
-                <span className="font-medium text-gray-900">Overview</span>
+        <header className="h-16 bg-white border-b border-gray-100 flex items-center justify-between px-4 sm:px-8">
+            <div className="flex items-center gap-3 text-sm">
+                <button
+                    onClick={toggleMobileSidebar}
+                    className="p-2 -ml-2 text-gray-500 hover:text-gray-700 md:hidden"
+                    aria-label="Toggle sidebar"
+                >
+                    <Menu size={24} />
+                </button>
+                <div className="hidden sm:flex items-center gap-2">
+                    <span className="text-gray-400">Dashboard</span>
+                    <span className="text-gray-300">/</span>
+                    <span className="font-medium text-gray-900">Overview</span>
+                </div>
+                {/* Mobile breadcrumb logic could go here if needed, or simplifed title */}
+                <div className="sm:hidden font-medium text-gray-900">Overview</div>
             </div>
 
             <div className="flex items-center gap-6">

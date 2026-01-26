@@ -7,7 +7,7 @@ from flask_cors import CORS
 from sp_api_sync import sync_amazon_data
 
 # Load local environment vars
-load_dotenv()
+load_dotenv(".env.local")
 
 # Initialize Firebase
 if not firebase_admin._apps:

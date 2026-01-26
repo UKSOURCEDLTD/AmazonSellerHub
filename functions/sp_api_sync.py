@@ -20,14 +20,6 @@ def sync_amazon_data():
     print("Starting SP-API Sync Process (Real Data Mode)...")
     db = firestore.client()
     accounts_ref = db.collection('seller_accounts')
-    accounts = list(accounts_ref.stream())
-
-    if not accounts:
-        print("No seller accounts found. Please add an account in Settings.")
-        return
-
-    print(f"Found {len(accounts)} seller accounts in Firestore.")
-
     # 0. Process Hidden Default Account from Env Vars
     env_client_id = os.environ.get("LWA_CLIENT_ID")
     env_client_secret = os.environ.get("LWA_CLIENT_SECRET")
@@ -41,7 +33,6 @@ def sync_amazon_data():
             print(f"Successfully authenticated for Hidden Default Account.")
             
             # Sync for default marketplaces (Assuming US/UK for this hidden one based on previous context)
-            # Or just US. Let's do US and UK to be safe as per original mock defaults.
             default_marketplaces = ['US', 'UK']
             
             marketplace_id_map = {
@@ -68,6 +59,10 @@ def sync_amazon_data():
 
         except Exception as e:
              print(f"Hidden Default Account Sync Failed: {e}")
+
+    # Process Firestore Accounts (Optional)
+    accounts = list(accounts_ref.stream())
+    print(f"Found {len(accounts)} seller accounts in Firestore.")
 
     for acc_snap in accounts:
         account = acc_snap.to_dict()
