@@ -7,7 +7,7 @@ from firebase_admin import credentials, firestore
 # For local migration, we might need a service account if default auth isn't set up.
 # However, if 'gcloud auth application-default login' was run, it works automatically.
 try:
-    firebase_admin.initialize_app()
+    firebase_admin.initialize_app(options={'projectId': 'amz-seller-hub'})
 except ValueError:
     # Already initialized
     pass
