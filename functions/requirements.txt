@@ -1,7 +1,7 @@
-firebase-functions
-firebase-admin
-google-cloud-secret-manager
-requests
-flask
-flask-cors
-python-dotenv
+firebase-admin>=6.2.0
+functions-framework==3.*
+requests>=2.31.0
+python-dotenv>=1.0.0
+flask>=2.2.5
+flask-cors>=3.0.10
+emoji>=2.8.0

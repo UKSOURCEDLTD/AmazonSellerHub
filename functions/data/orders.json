@@ -1,0 +1,5586 @@
+[
+  {
+    "id": "113-7165537-3553868",
+    "amazon_order_id": "113-7165537-3553868",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-30T05:03:43+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "113-1660443-4106631",
+    "amazon_order_id": "113-1660443-4106631",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-30T13:40:14+00:00",
+    "order_status": "Shipped",
+    "order_total": 49.07,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "SP500",
+        "title": "Red Horse Products Sole Paint - Strong Active Ingredients | Cleanses, Strengthens, and Supports Hoof Health | Easy-to-Use Formula for Deep Cleaning an",
+        "quantity": 0,
+        "item_price": 49.07
+      }
+    ],
+    "estimated_fees": 7.3605,
+    "estimated_proceeds": 41.7095,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "113-7534373-8369023",
+    "amazon_order_id": "113-7534373-8369023",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-31T04:57:12+00:00",
+    "order_status": "Shipped",
+    "order_total": 57.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 57.99
+      }
+    ],
+    "estimated_fees": 8.6985,
+    "estimated_proceeds": 49.2915,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "113-6550273-5562638",
+    "amazon_order_id": "113-6550273-5562638",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-31T06:12:37+00:00",
+    "order_status": "Shipped",
+    "order_total": 0.0,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "SP500",
+        "title": "Red Horse Products Sole Paint - Strong Active Ingredients | Cleanses, Strengthens, and Supports Hoof Health | Easy-to-Use Formula for Deep Cleaning an",
+        "quantity": 0,
+        "item_price": 0.0
+      }
+    ],
+    "estimated_fees": 0.0,
+    "estimated_proceeds": 0.0,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "113-4646681-6980229",
+    "amazon_order_id": "113-4646681-6980229",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-01T20:39:48+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "111-8830200-3846623",
+    "amazon_order_id": "111-8830200-3846623",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-01T20:50:43+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "113-9741850-1655467",
+    "amazon_order_id": "113-9741850-1655467",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-01T23:02:37+00:00",
+    "order_status": "Shipped",
+    "order_total": 57.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 57.99
+      }
+    ],
+    "estimated_fees": 8.6985,
+    "estimated_proceeds": 49.2915,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "111-7573037-8792219",
+    "amazon_order_id": "111-7573037-8792219",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-02T04:14:03+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "112-9464221-3777805",
+    "amazon_order_id": "112-9464221-3777805",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-02T04:17:44+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "114-7789667-5008266",
+    "amazon_order_id": "114-7789667-5008266",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-03T11:11:58+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "112-7187824-3632258",
+    "amazon_order_id": "112-7187824-3632258",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-03T16:26:43+00:00",
+    "order_status": "Shipped",
+    "order_total": 57.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 57.99
+      }
+    ],
+    "estimated_fees": 8.6985,
+    "estimated_proceeds": 49.2915,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "114-7442247-6843401",
+    "amazon_order_id": "114-7442247-6843401",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-04T03:32:09+00:00",
+    "order_status": "Shipped",
+    "order_total": 57.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 57.99
+      }
+    ],
+    "estimated_fees": 8.6985,
+    "estimated_proceeds": 49.2915,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "114-5021501-2599428",
+    "amazon_order_id": "114-5021501-2599428",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-04T04:06:46+00:00",
+    "order_status": "Shipped",
+    "order_total": 57.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 57.99
+      }
+    ],
+    "estimated_fees": 8.6985,
+    "estimated_proceeds": 49.2915,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "111-6251651-5994616",
+    "amazon_order_id": "111-6251651-5994616",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-04T20:35:48+00:00",
+    "order_status": "Shipped",
+    "order_total": 57.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 57.99
+      }
+    ],
+    "estimated_fees": 8.6985,
+    "estimated_proceeds": 49.2915,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "114-4542367-7150633",
+    "amazon_order_id": "114-4542367-7150633",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-04T23:26:33+00:00",
+    "order_status": "Shipped",
+    "order_total": 57.98,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 57.98
+      }
+    ],
+    "estimated_fees": 8.697,
+    "estimated_proceeds": 49.283,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "113-4686537-8354637",
+    "amazon_order_id": "113-4686537-8354637",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-05T00:24:03+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "114-7176745-3516246",
+    "amazon_order_id": "114-7176745-3516246",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-05T14:52:30+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "114-6842712-5417838",
+    "amazon_order_id": "114-6842712-5417838",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-07T18:45:54+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "113-3414292-8511464",
+    "amazon_order_id": "113-3414292-8511464",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-10T23:14:18+00:00",
+    "order_status": "Shipped",
+    "order_total": 49.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "T5-QXD8-KPKZ",
+        "title": "Red Horse Products - Sweet Oil (500ml)",
+        "quantity": 0,
+        "item_price": 49.99
+      }
+    ],
+    "estimated_fees": 7.4985,
+    "estimated_proceeds": 42.4915,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "111-6597763-0567430",
+    "amazon_order_id": "111-6597763-0567430",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-12T01:59:37+00:00",
+    "order_status": "Shipped",
+    "order_total": 48.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "STR500",
+        "title": "Red Horse Products - Stronghorn ( 500ml ) (with info guide)",
+        "quantity": 0,
+        "item_price": 48.99
+      }
+    ],
+    "estimated_fees": 7.3485,
+    "estimated_proceeds": 41.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "111-9453190-3899436",
+    "amazon_order_id": "111-9453190-3899436",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-16T13:08:51+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "113-4053333-1136213",
+    "amazon_order_id": "113-4053333-1136213",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-16T16:19:27+00:00",
+    "order_status": "Shipped",
+    "order_total": 68.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "Hydro500AMZLBL",
+        "title": "Red Horse Products - HydroHoof (500ml)",
+        "quantity": 0,
+        "item_price": 68.99
+      }
+    ],
+    "estimated_fees": 10.3485,
+    "estimated_proceeds": 58.64149999999999,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "114-8138247-6614662",
+    "amazon_order_id": "114-8138247-6614662",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-17T15:47:39+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "112-3878631-5840247",
+    "amazon_order_id": "112-3878631-5840247",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-17T18:24:35+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "112-9089954-0137842",
+    "amazon_order_id": "112-9089954-0137842",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-17T18:51:04+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "111-4262576-0089837",
+    "amazon_order_id": "111-4262576-0089837",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-17T19:30:49+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "114-3783392-2969058",
+    "amazon_order_id": "114-3783392-2969058",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-18T00:06:43+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "112-2308123-4124260",
+    "amazon_order_id": "112-2308123-4124260",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-18T01:42:13+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "114-4291463-0316200",
+    "amazon_order_id": "114-4291463-0316200",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-18T05:06:03+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "111-4380632-8516250",
+    "amazon_order_id": "111-4380632-8516250",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-18T11:29:19+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "111-9090836-6842668",
+    "amazon_order_id": "111-9090836-6842668",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-19T02:13:57+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "112-4209961-4215448",
+    "amazon_order_id": "112-4209961-4215448",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-19T03:42:06+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "114-5869108-8325030",
+    "amazon_order_id": "114-5869108-8325030",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-19T15:30:22+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "113-3990057-8648240",
+    "amazon_order_id": "113-3990057-8648240",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-21T18:28:27+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "113-5412553-9148246",
+    "amazon_order_id": "113-5412553-9148246",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-23T22:10:46+00:00",
+    "order_status": "Shipped",
+    "order_total": 77.98,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 77.98
+      }
+    ],
+    "estimated_fees": 11.697000000000001,
+    "estimated_proceeds": 66.283,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "114-8960288-8343436",
+    "amazon_order_id": "114-8960288-8343436",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-23T22:29:02+00:00",
+    "order_status": "Pending",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "114-0464704-4839401",
+    "amazon_order_id": "114-0464704-4839401",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-24T15:56:07+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "113-9854414-0093061",
+    "amazon_order_id": "113-9854414-0093061",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-24T17:12:33+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "113-1559761-7125809",
+    "amazon_order_id": "113-1559761-7125809",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-24T19:57:24+00:00",
+    "order_status": "Pending",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "114-2125179-2271417",
+    "amazon_order_id": "114-2125179-2271417",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-25T05:27:01+00:00",
+    "order_status": "Pending",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "112-0267701-2296242",
+    "amazon_order_id": "112-0267701-2296242",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-25T14:53:47+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "113-2863207-8617017",
+    "amazon_order_id": "113-2863207-8617017",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-25T18:08:46+00:00",
+    "order_status": "Pending",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "113-7970691-3305040",
+    "amazon_order_id": "113-7970691-3305040",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-26T02:30:07+00:00",
+    "order_status": "Pending",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "113-2052843-0443430",
+    "amazon_order_id": "113-2052843-0443430",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-26T14:36:38+00:00",
+    "order_status": "Pending",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "111-3320217-5537002",
+    "amazon_order_id": "111-3320217-5537002",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-26T19:46:03+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "111-9752819-7537040",
+    "amazon_order_id": "111-9752819-7537040",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-26T21:21:09+00:00",
+    "order_status": "Pending",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "113-9186886-7398626",
+    "amazon_order_id": "113-9186886-7398626",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-27T00:38:44+00:00",
+    "order_status": "Pending",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "114-9435164-3234668",
+    "amazon_order_id": "114-9435164-3234668",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-25T03:07:18+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "112-1341172-1029049",
+    "amazon_order_id": "112-1341172-1029049",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-21T15:54:26+00:00",
+    "order_status": "Shipped",
+    "order_total": 46.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 46.99
+      }
+    ],
+    "estimated_fees": 7.0485,
+    "estimated_proceeds": 39.941500000000005,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "113-7581688-1469060",
+    "amazon_order_id": "113-7581688-1469060",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-18T00:57:13+00:00",
+    "order_status": "Shipped",
+    "order_total": 46.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 46.99
+      }
+    ],
+    "estimated_fees": 7.0485,
+    "estimated_proceeds": 39.941500000000005,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "114-4257164-3985832",
+    "amazon_order_id": "114-4257164-3985832",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-26T15:10:36+00:00",
+    "order_status": "Shipped",
+    "order_total": 57.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 57.99
+      }
+    ],
+    "estimated_fees": 8.6985,
+    "estimated_proceeds": 49.2915,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-0845310-1436253",
+    "amazon_order_id": "111-0845310-1436253",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-27T19:43:39+00:00",
+    "order_status": "Shipped",
+    "order_total": 57.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 57.99
+      }
+    ],
+    "estimated_fees": 8.6985,
+    "estimated_proceeds": 49.2915,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "113-8752210-7047462",
+    "amazon_order_id": "113-8752210-7047462",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-27T11:39:31+00:00",
+    "order_status": "Shipped",
+    "order_total": 57.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 57.99
+      }
+    ],
+    "estimated_fees": 8.6985,
+    "estimated_proceeds": 49.2915,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "113-5955109-4723416",
+    "amazon_order_id": "113-5955109-4723416",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-11T17:04:09+00:00",
+    "order_status": "Shipped",
+    "order_total": 46.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 46.99
+      }
+    ],
+    "estimated_fees": 7.0485,
+    "estimated_proceeds": 39.941500000000005,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "112-1605539-1682631",
+    "amazon_order_id": "112-1605539-1682631",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-16T14:54:37+00:00",
+    "order_status": "Shipped",
+    "order_total": 46.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 46.99
+      }
+    ],
+    "estimated_fees": 7.0485,
+    "estimated_proceeds": 39.941500000000005,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "113-4189723-7882605",
+    "amazon_order_id": "113-4189723-7882605",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-25T18:31:22+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-8776449-0368245",
+    "amazon_order_id": "111-8776449-0368245",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-02T18:45:26+00:00",
+    "order_status": "Shipped",
+    "order_total": 57.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 57.99
+      }
+    ],
+    "estimated_fees": 8.6985,
+    "estimated_proceeds": 49.2915,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "114-2990657-2332239",
+    "amazon_order_id": "114-2990657-2332239",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-02T16:57:33+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "112-7333611-4608224",
+    "amazon_order_id": "112-7333611-4608224",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-06T22:33:07+00:00",
+    "order_status": "Shipped",
+    "order_total": 49.07,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "SP500",
+        "title": "Red Horse Products Sole Paint - Strong Active Ingredients | Cleanses, Strengthens, and Supports Hoof Health | Easy-to-Use Formula for Deep Cleaning an",
+        "quantity": 0,
+        "item_price": 49.07
+      }
+    ],
+    "estimated_fees": 7.3605,
+    "estimated_proceeds": 41.7095,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "112-1612500-0425866",
+    "amazon_order_id": "112-1612500-0425866",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-27T16:16:53+00:00",
+    "order_status": "Shipped",
+    "order_total": 57.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 57.99
+      }
+    ],
+    "estimated_fees": 8.6985,
+    "estimated_proceeds": 49.2915,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "113-0241481-8949877",
+    "amazon_order_id": "113-0241481-8949877",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-27T02:45:08+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-2753066-9628265",
+    "amazon_order_id": "111-2753066-9628265",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-09T08:10:51+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "113-7199866-9384258",
+    "amazon_order_id": "113-7199866-9384258",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-09T08:34:25+00:00",
+    "order_status": "Cancelled",
+    "order_total": 0.0,
+    "currency": "",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 0.0
+      }
+    ],
+    "estimated_fees": 0.0,
+    "estimated_proceeds": 0.0,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "112-2565559-3323460",
+    "amazon_order_id": "112-2565559-3323460",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-02T04:17:44+00:00",
+    "order_status": "Shipped",
+    "order_total": 57.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 57.99
+      }
+    ],
+    "estimated_fees": 8.6985,
+    "estimated_proceeds": 49.2915,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "112-9769834-0197819",
+    "amazon_order_id": "112-9769834-0197819",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-10T12:31:01+00:00",
+    "order_status": "Shipped",
+    "order_total": 12.95,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZX-YHJJ-3XM8",
+        "title": "Red Horse Products LTD - Rider Rescue lip balm",
+        "quantity": 0,
+        "item_price": 12.95
+      }
+    ],
+    "estimated_fees": 1.9425,
+    "estimated_proceeds": 11.0075,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "111-0978295-3605844",
+    "amazon_order_id": "111-0978295-3605844",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-13T13:10:16+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "112-8543504-8553816",
+    "amazon_order_id": "112-8543504-8553816",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-12T19:16:08+00:00",
+    "order_status": "Shipped",
+    "order_total": 29.83,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 29.83
+      }
+    ],
+    "estimated_fees": 4.4745,
+    "estimated_proceeds": 25.3555,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "112-9957515-1001843",
+    "amazon_order_id": "112-9957515-1001843",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-28T05:05:18+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-2031684-8865034",
+    "amazon_order_id": "111-2031684-8865034",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-14T16:47:27+00:00",
+    "order_status": "Shipped",
+    "order_total": 33.95,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "3R-EO0K-5718",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 33.95
+      }
+    ],
+    "estimated_fees": 5.0925,
+    "estimated_proceeds": 28.8575,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "113-0846539-0845807",
+    "amazon_order_id": "113-0846539-0845807",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-16T18:38:02+00:00",
+    "order_status": "Cancelled",
+    "order_total": 0.0,
+    "currency": "",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 0.0
+      }
+    ],
+    "estimated_fees": 0.0,
+    "estimated_proceeds": 0.0,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "113-9121145-7802604",
+    "amazon_order_id": "113-9121145-7802604",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-16T21:34:24+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "112-5792778-8146604",
+    "amazon_order_id": "112-5792778-8146604",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-17T16:04:42+00:00",
+    "order_status": "Shipped",
+    "order_total": 77.98,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 77.98
+      }
+    ],
+    "estimated_fees": 11.697000000000001,
+    "estimated_proceeds": 66.283,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "112-1356905-6897014",
+    "amazon_order_id": "112-1356905-6897014",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-17T13:36:04+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "112-3513932-4763430",
+    "amazon_order_id": "112-3513932-4763430",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-17T23:49:17+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "111-4091068-6017049",
+    "amazon_order_id": "111-4091068-6017049",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-17T19:56:35+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "111-9299238-9005869",
+    "amazon_order_id": "111-9299238-9005869",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-17T02:43:40+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "111-8953205-0718662",
+    "amazon_order_id": "111-8953205-0718662",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-18T11:27:04+00:00",
+    "order_status": "Cancelled",
+    "order_total": 0.0,
+    "currency": "",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 0.0
+      }
+    ],
+    "estimated_fees": 0.0,
+    "estimated_proceeds": 0.0,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "114-4751792-3070634",
+    "amazon_order_id": "114-4751792-3070634",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-18T12:48:24+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "114-2006370-2205825",
+    "amazon_order_id": "114-2006370-2205825",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-17T16:39:30+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "113-7517706-5126648",
+    "amazon_order_id": "113-7517706-5126648",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-16T18:39:12+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921881"
+  },
+  {
+    "id": "113-0997646-3621039",
+    "amazon_order_id": "113-0997646-3621039",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-19T05:26:38+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "113-1053592-1897827",
+    "amazon_order_id": "113-1053592-1897827",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-19T01:16:35+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "112-6033982-5259455",
+    "amazon_order_id": "112-6033982-5259455",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-19T03:50:31+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "113-0609916-8240265",
+    "amazon_order_id": "113-0609916-8240265",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-17T02:40:52+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "114-4356067-8470638",
+    "amazon_order_id": "114-4356067-8470638",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-18T19:37:56+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof putty - under shoe/pad packing, white line, seedy toe, abcess cavities, central sulcus thrush, hoof cracks, nail holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "112-4482722-0203418",
+    "amazon_order_id": "112-4482722-0203418",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-20T23:12:19+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "111-1333928-9761048",
+    "amazon_order_id": "111-1333928-9761048",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-19T23:53:56+00:00",
+    "order_status": "Shipped",
+    "order_total": 33.95,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "3R-EO0K-5718",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 33.95
+      }
+    ],
+    "estimated_fees": 5.0925,
+    "estimated_proceeds": 28.8575,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "112-2821465-4016201",
+    "amazon_order_id": "112-2821465-4016201",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-21T07:38:49+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "112-2827102-5849825",
+    "amazon_order_id": "112-2827102-5849825",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-22T02:12:06+00:00",
+    "order_status": "Shipped",
+    "order_total": 72.94,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "3R-EO0K-5718",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 33.95
+      },
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 10.941,
+    "estimated_proceeds": 61.999,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "114-6923991-2528224",
+    "amazon_order_id": "114-6923991-2528224",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-23T16:33:42+00:00",
+    "order_status": "Pending",
+    "order_total": 57.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 57.99
+      }
+    ],
+    "estimated_fees": 8.6985,
+    "estimated_proceeds": 49.2915,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "114-1319693-6518664",
+    "amazon_order_id": "114-1319693-6518664",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-24T04:31:14+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "114-0121653-3188247",
+    "amazon_order_id": "114-0121653-3188247",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-23T20:48:46+00:00",
+    "order_status": "Shipped",
+    "order_total": 77.98,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 77.98
+      }
+    ],
+    "estimated_fees": 11.697000000000001,
+    "estimated_proceeds": 66.283,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "113-6964857-2467410",
+    "amazon_order_id": "113-6964857-2467410",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-24T15:59:59+00:00",
+    "order_status": "Pending",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "111-6521120-4544205",
+    "amazon_order_id": "111-6521120-4544205",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-22T19:47:32+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "114-3473517-5001046",
+    "amazon_order_id": "114-3473517-5001046",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-24T19:40:04+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "114-8740963-0217054",
+    "amazon_order_id": "114-8740963-0217054",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-25T12:42:33+00:00",
+    "order_status": "Pending",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "114-9990146-3271416",
+    "amazon_order_id": "114-9990146-3271416",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-26T03:55:17+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "111-1684231-3790631",
+    "amazon_order_id": "111-1684231-3790631",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-25T18:38:20+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Thrush Topical, Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail H",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "112-2511548-1061845",
+    "amazon_order_id": "112-2511548-1061845",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-01T18:28:48Z",
+    "order_status": "Shipped",
+    "order_total": 13.9,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "2A-5ASO-0RR2",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.085,
+    "estimated_proceeds": 11.815000000000001,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:06:56.287876"
+  },
+  {
+    "id": "111-8797924-3637064",
+    "amazon_order_id": "111-8797924-3637064",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-01T22:03:48Z",
+    "order_status": "Shipped",
+    "order_total": 14.08,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "PianoStickers",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.112,
+    "estimated_proceeds": 11.968,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:06:57.904051"
+  },
+  {
+    "id": "112-3338853-9217800",
+    "amazon_order_id": "112-3338853-9217800",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-02T13:52:27Z",
+    "order_status": "Shipped",
+    "order_total": 18.18,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GripPack",
+        "title": "Crosby Pedalboard Grip Kit - 10 Feet (3m) of Heavy Duty Hook & Loop Tape Plus 6 Reusable Cable Ties for Guitar or Bass Pedal Board Mounting and Cable Management",
+        "quantity": 1,
+        "item_price": 16.99
+      }
+    ],
+    "estimated_fees": 2.727,
+    "estimated_proceeds": 15.453,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:06:59.597357"
+  },
+  {
+    "id": "112-8807344-5140227",
+    "amazon_order_id": "112-8807344-5140227",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-02T11:12:03Z",
+    "order_status": "Shipped",
+    "order_total": 18.24,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GripPack",
+        "title": "Crosby Pedalboard Grip Kit - 10 Feet (3m) of Heavy Duty Hook & Loop Tape Plus 6 Reusable Cable Ties for Guitar or Bass Pedal Board Mounting and Cable Management",
+        "quantity": 1,
+        "item_price": 16.99
+      }
+    ],
+    "estimated_fees": 2.7359999999999998,
+    "estimated_proceeds": 15.503999999999998,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:01.223077"
+  },
+  {
+    "id": "111-3740881-8376269",
+    "amazon_order_id": "111-3740881-8376269",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-02T18:37:15Z",
+    "order_status": "Shipped",
+    "order_total": 47.68,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "CU-EO8Z-DSKN",
+        "title": "Red Horse Products Honey Heel (500ml) Honey Rapid Wound Repair Ointment, Manuka Honey, Veterinarian Tested Horse & Animal Wound Care, 500ml tub",
+        "quantity": 1,
+        "item_price": 44.99
+      }
+    ],
+    "estimated_fees": 7.152,
+    "estimated_proceeds": 40.528,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:02.942551"
+  },
+  {
+    "id": "113-0539639-0965001",
+    "amazon_order_id": "113-0539639-0965001",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-01T02:22:43Z",
+    "order_status": "Shipped",
+    "order_total": 13.77,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "2A-5ASO-0RR2",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.0654999999999997,
+    "estimated_proceeds": 11.7045,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:04.524333"
+  },
+  {
+    "id": "112-3280334-5451459",
+    "amazon_order_id": "112-3280334-5451459",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-01T05:34:33Z",
+    "order_status": "Shipped",
+    "order_total": 17.27,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.5905,
+    "estimated_proceeds": 14.679499999999999,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:06.116782"
+  },
+  {
+    "id": "112-3515000-1233015",
+    "amazon_order_id": "112-3515000-1233015",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-03T18:31:10Z",
+    "order_status": "Shipped",
+    "order_total": 45.59,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "SP500",
+        "title": "Red Horse Products - Sole Paint (500ml)",
+        "quantity": 1,
+        "item_price": 43.01
+      }
+    ],
+    "estimated_fees": 6.838500000000001,
+    "estimated_proceeds": 38.7515,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:07.750935"
+  },
+  {
+    "id": "112-0250299-3039429",
+    "amazon_order_id": "112-0250299-3039429",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-03T17:22:34Z",
+    "order_status": "Shipped",
+    "order_total": 17.5,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.625,
+    "estimated_proceeds": 14.875,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:09.814446"
+  },
+  {
+    "id": "112-0254956-9141009",
+    "amazon_order_id": "112-0254956-9141009",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-02T00:36:53Z",
+    "order_status": "Shipped",
+    "order_total": 18.41,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GripPack",
+        "title": "Crosby Pedalboard Grip Kit - 10 Feet (3m) of Heavy Duty Hook & Loop Tape Plus 6 Reusable Cable Ties for Guitar or Bass Pedal Board Mounting and Cable Management",
+        "quantity": 1,
+        "item_price": 16.99
+      }
+    ],
+    "estimated_fees": 2.7615,
+    "estimated_proceeds": 15.6485,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:11.391425"
+  },
+  {
+    "id": "113-9816992-8500223",
+    "amazon_order_id": "113-9816992-8500223",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-02T18:11:04Z",
+    "order_status": "Shipped",
+    "order_total": 17.39,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.6085,
+    "estimated_proceeds": 14.781500000000001,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:13.175946"
+  },
+  {
+    "id": "114-7410894-0901869",
+    "amazon_order_id": "114-7410894-0901869",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-01T17:55:20Z",
+    "order_status": "Shipped",
+    "order_total": 17.05,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.5575,
+    "estimated_proceeds": 14.4925,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:14.913411"
+  },
+  {
+    "id": "112-3831830-1147417",
+    "amazon_order_id": "112-3831830-1147417",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-04T02:29:21Z",
+    "order_status": "Shipped",
+    "order_total": 57.77,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "3R-EO0K-5718",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 1,
+        "item_price": 53.99
+      }
+    ],
+    "estimated_fees": 8.6655,
+    "estimated_proceeds": 49.1045,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:17.038491"
+  },
+  {
+    "id": "111-5976569-8290627",
+    "amazon_order_id": "111-5976569-8290627",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-05T03:30:07Z",
+    "order_status": "Shipped",
+    "order_total": 16.3,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "OJ-5ZZ9-BJF5",
+        "title": "Crosby Pure Bone Bridge Pins for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 14.99
+      }
+    ],
+    "estimated_fees": 2.445,
+    "estimated_proceeds": 13.855,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:18.698388"
+  },
+  {
+    "id": "114-1908062-7991454",
+    "amazon_order_id": "114-1908062-7991454",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-02T03:56:50Z",
+    "order_status": "Shipped",
+    "order_total": 33.74,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 2,
+        "item_price": 31.98
+      }
+    ],
+    "estimated_fees": 5.061,
+    "estimated_proceeds": 28.679000000000002,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:20.389616"
+  },
+  {
+    "id": "113-6894808-8181045",
+    "amazon_order_id": "113-6894808-8181045",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-01T16:05:02Z",
+    "order_status": "Shipped",
+    "order_total": 17.41,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.6115,
+    "estimated_proceeds": 14.7985,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:22.987389"
+  },
+  {
+    "id": "114-4191552-0869038",
+    "amazon_order_id": "114-4191552-0869038",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-03T03:24:31Z",
+    "order_status": "Shipped",
+    "order_total": 63.47,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "89-C1E0-7C86",
+        "title": "Caline DCP-03 DEVILFISH Chorus Delay Effect Pedal Dual Guitar Pedal",
+        "quantity": 1,
+        "item_price": 59.46
+      }
+    ],
+    "estimated_fees": 9.5205,
+    "estimated_proceeds": 53.9495,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:24.602976"
+  },
+  {
+    "id": "112-9291692-9816260",
+    "amazon_order_id": "112-9291692-9816260",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-02T20:50:30Z",
+    "order_status": "Shipped",
+    "order_total": 20.76,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "2A-5ASO-0RR2",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 3.1140000000000003,
+    "estimated_proceeds": 17.646,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:26.196372"
+  },
+  {
+    "id": "114-6257213-3315458",
+    "amazon_order_id": "114-6257213-3315458",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-03T22:20:42Z",
+    "order_status": "Shipped",
+    "order_total": 31.98,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 2,
+        "item_price": 31.98
+      }
+    ],
+    "estimated_fees": 4.797,
+    "estimated_proceeds": 27.183,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:27.762326"
+  },
+  {
+    "id": "113-7211573-1229009",
+    "amazon_order_id": "113-7211573-1229009",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-04T03:37:47Z",
+    "order_status": "Shipped",
+    "order_total": 17.27,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.5905,
+    "estimated_proceeds": 14.679499999999999,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:29.454989"
+  },
+  {
+    "id": "114-5026352-9863441",
+    "amazon_order_id": "114-5026352-9863441",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-05T02:03:56Z",
+    "order_status": "Shipped",
+    "order_total": 17.63,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.6445,
+    "estimated_proceeds": 14.985499999999998,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:31.094067"
+  },
+  {
+    "id": "111-5450090-9666665",
+    "amazon_order_id": "111-5450090-9666665",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-05T18:01:06Z",
+    "order_status": "Shipped",
+    "order_total": 16.41,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "OJ-5ZZ9-BJF5",
+        "title": "Crosby Pure Bone Bridge Pins for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 14.99
+      }
+    ],
+    "estimated_fees": 2.4615,
+    "estimated_proceeds": 13.9485,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:32.732323"
+  },
+  {
+    "id": "114-0365029-1560200",
+    "amazon_order_id": "114-0365029-1560200",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-05T23:15:57Z",
+    "order_status": "Shipped",
+    "order_total": 14.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "OJ-5ZZ9-BJF5",
+        "title": "Crosby Pure Bone Bridge Pins for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 14.99
+      }
+    ],
+    "estimated_fees": 2.2485,
+    "estimated_proceeds": 12.7415,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:34.346477"
+  },
+  {
+    "id": "113-1619250-5853060",
+    "amazon_order_id": "113-1619250-5853060",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-05T19:13:47Z",
+    "order_status": "Shipped",
+    "order_total": 16.95,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.5425,
+    "estimated_proceeds": 14.407499999999999,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:36.222312"
+  },
+  {
+    "id": "113-8783578-1199456",
+    "amazon_order_id": "113-8783578-1199456",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-07T02:34:52Z",
+    "order_status": "Canceled",
+    "order_total": 0.0,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GripPack",
+        "title": "Crosby Pedalboard Grip Kit - 10 Feet (3m) of Heavy Duty Hook & Loop Tape Plus 6 Reusable Cable Ties for Guitar or Bass Pedal Board Mounting and Cable Management",
+        "quantity": 0,
+        "item_price": 0
+      }
+    ],
+    "estimated_fees": 0.0,
+    "estimated_proceeds": 0.0,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:37.953818"
+  },
+  {
+    "id": "114-8936746-0701040",
+    "amazon_order_id": "114-8936746-0701040",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-05T00:26:17Z",
+    "order_status": "Shipped",
+    "order_total": 18.5,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GripPack",
+        "title": "Crosby Pedalboard Grip Kit - 10 Feet (3m) of Heavy Duty Hook & Loop Tape Plus 6 Reusable Cable Ties for Guitar or Bass Pedal Board Mounting and Cable Management",
+        "quantity": 1,
+        "item_price": 16.99
+      }
+    ],
+    "estimated_fees": 2.775,
+    "estimated_proceeds": 15.725,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:39.603183"
+  },
+  {
+    "id": "113-5035727-3292212",
+    "amazon_order_id": "113-5035727-3292212",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-05T20:09:37Z",
+    "order_status": "Shipped",
+    "order_total": 58.69,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "3R-EO0K-5718",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 1,
+        "item_price": 53.99
+      }
+    ],
+    "estimated_fees": 8.8035,
+    "estimated_proceeds": 49.8865,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:41.236104"
+  },
+  {
+    "id": "114-7762532-0375411",
+    "amazon_order_id": "114-7762532-0375411",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-07T00:25:52Z",
+    "order_status": "Shipped",
+    "order_total": 17.23,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.5845,
+    "estimated_proceeds": 14.6455,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:42.845367"
+  },
+  {
+    "id": "111-0849206-0279448",
+    "amazon_order_id": "111-0849206-0279448",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-05T15:22:41Z",
+    "order_status": "Shipped",
+    "order_total": 58.44,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "3R-EO0K-5718",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 1,
+        "item_price": 53.99
+      }
+    ],
+    "estimated_fees": 8.766,
+    "estimated_proceeds": 49.674,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:44.522539"
+  },
+  {
+    "id": "113-2096172-9485026",
+    "amazon_order_id": "113-2096172-9485026",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-07T02:38:33Z",
+    "order_status": "Shipped",
+    "order_total": 18.22,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GripPack",
+        "title": "Crosby Pedalboard Grip Kit - 10 Feet (3m) of Heavy Duty Hook & Loop Tape Plus 6 Reusable Cable Ties for Guitar or Bass Pedal Board Mounting and Cable Management",
+        "quantity": 1,
+        "item_price": 16.99
+      }
+    ],
+    "estimated_fees": 2.7329999999999997,
+    "estimated_proceeds": 15.486999999999998,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:46.130307"
+  },
+  {
+    "id": "111-0755939-5481039",
+    "amazon_order_id": "111-0755939-5481039",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-07T03:48:38Z",
+    "order_status": "Shipped",
+    "order_total": 17.15,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.5725,
+    "estimated_proceeds": 14.577499999999999,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:47.830852"
+  },
+  {
+    "id": "112-6432406-6525019",
+    "amazon_order_id": "112-6432406-6525019",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-07T20:28:37Z",
+    "order_status": "Shipped",
+    "order_total": 15.89,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "OJ-5ZZ9-BJF5",
+        "title": "Crosby Pure Bone Bridge Pins for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 14.99
+      }
+    ],
+    "estimated_fees": 2.3835,
+    "estimated_proceeds": 13.5065,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:49.797776"
+  },
+  {
+    "id": "111-0108980-8389062",
+    "amazon_order_id": "111-0108980-8389062",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-07T22:03:43Z",
+    "order_status": "Shipped",
+    "order_total": 14.0,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "2A-5ASO-0RR2",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.1,
+    "estimated_proceeds": 11.9,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:51.619116"
+  },
+  {
+    "id": "112-6602715-9667469",
+    "amazon_order_id": "112-6602715-9667469",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-04T00:41:08Z",
+    "order_status": "Canceled",
+    "order_total": 0.0,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "2A-5ASO-0RR2",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 0,
+        "item_price": 0
+      }
+    ],
+    "estimated_fees": 0.0,
+    "estimated_proceeds": 0.0,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:53.227344"
+  },
+  {
+    "id": "112-3345755-1096244",
+    "amazon_order_id": "112-3345755-1096244",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-07T23:05:37Z",
+    "order_status": "Shipped",
+    "order_total": 17.51,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.6265,
+    "estimated_proceeds": 14.883500000000002,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:54.799275"
+  },
+  {
+    "id": "112-1124315-3105861",
+    "amazon_order_id": "112-1124315-3105861",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-03T11:00:20Z",
+    "order_status": "Shipped",
+    "order_total": 18.54,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GripPack",
+        "title": "Crosby Pedalboard Grip Kit - 10 Feet (3m) of Heavy Duty Hook & Loop Tape Plus 6 Reusable Cable Ties for Guitar or Bass Pedal Board Mounting and Cable Management",
+        "quantity": 1,
+        "item_price": 16.99
+      }
+    ],
+    "estimated_fees": 2.7809999999999997,
+    "estimated_proceeds": 15.759,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:56.437532"
+  },
+  {
+    "id": "112-3878867-7027444",
+    "amazon_order_id": "112-3878867-7027444",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-07T16:20:59Z",
+    "order_status": "Shipped",
+    "order_total": 17.31,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.5965,
+    "estimated_proceeds": 14.7135,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:58.041762"
+  },
+  {
+    "id": "114-1267667-5165053",
+    "amazon_order_id": "114-1267667-5165053",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-07T14:10:02Z",
+    "order_status": "Shipped",
+    "order_total": 57.36,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "3R-EO0K-5718",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 1,
+        "item_price": 53.99
+      }
+    ],
+    "estimated_fees": 8.604,
+    "estimated_proceeds": 48.756,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:07:59.663971"
+  },
+  {
+    "id": "111-3724195-5385040",
+    "amazon_order_id": "111-3724195-5385040",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-08T00:13:39Z",
+    "order_status": "Shipped",
+    "order_total": 14.06,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "2A-5ASO-0RR2",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.109,
+    "estimated_proceeds": 11.951,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:01.263212"
+  },
+  {
+    "id": "114-1395262-0785048",
+    "amazon_order_id": "114-1395262-0785048",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-07T21:39:00Z",
+    "order_status": "Shipped",
+    "order_total": 16.25,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "OJ-5ZZ9-BJF5",
+        "title": "Crosby Pure Bone Bridge Pins for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 14.99
+      }
+    ],
+    "estimated_fees": 2.4375,
+    "estimated_proceeds": 13.8125,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:02.835133"
+  },
+  {
+    "id": "114-8401049-4894657",
+    "amazon_order_id": "114-8401049-4894657",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-07T14:44:21Z",
+    "order_status": "Shipped",
+    "order_total": 48.0,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "OJ-5ZZ9-BJF5",
+        "title": "Crosby Pure Bone Bridge Pins for 6 & 12 String Acoustic Guitar",
+        "quantity": 3,
+        "item_price": 44.97
+      }
+    ],
+    "estimated_fees": 7.199999999999999,
+    "estimated_proceeds": 40.8,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:04.477710"
+  },
+  {
+    "id": "111-9273975-3912221",
+    "amazon_order_id": "111-9273975-3912221",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-08T03:36:55Z",
+    "order_status": "Shipped",
+    "order_total": 31.78,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "OJ-5ZZ9-BJF5",
+        "title": "Crosby Pure Bone Bridge Pins for 6 & 12 String Acoustic Guitar",
+        "quantity": 2,
+        "item_price": 29.98
+      }
+    ],
+    "estimated_fees": 4.767,
+    "estimated_proceeds": 27.013,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:06.086120"
+  },
+  {
+    "id": "113-4173566-1681029",
+    "amazon_order_id": "113-4173566-1681029",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-05T21:28:34Z",
+    "order_status": "Shipped",
+    "order_total": 15.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.3985,
+    "estimated_proceeds": 13.5915,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:07.657264"
+  },
+  {
+    "id": "114-2150319-3638611",
+    "amazon_order_id": "114-2150319-3638611",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-06T23:04:30Z",
+    "order_status": "Shipped",
+    "order_total": 16.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GripPack",
+        "title": "Crosby Pedalboard Grip Kit - 10 Feet (3m) of Heavy Duty Hook & Loop Tape Plus 6 Reusable Cable Ties for Guitar or Bass Pedal Board Mounting and Cable Management",
+        "quantity": 1,
+        "item_price": 16.99
+      }
+    ],
+    "estimated_fees": 2.5484999999999998,
+    "estimated_proceeds": 14.441499999999998,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:09.250796"
+  },
+  {
+    "id": "114-5928341-4228217",
+    "amazon_order_id": "114-5928341-4228217",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-08T18:38:59Z",
+    "order_status": "Shipped",
+    "order_total": 13.9,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "2A-5ASO-0RR2",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.085,
+    "estimated_proceeds": 11.815000000000001,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:11.050341"
+  },
+  {
+    "id": "112-0712401-8323416",
+    "amazon_order_id": "112-0712401-8323416",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-02T16:25:44Z",
+    "order_status": "Shipped",
+    "order_total": 14.03,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "2A-5ASO-0RR2",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.1045,
+    "estimated_proceeds": 11.9255,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:12.725045"
+  },
+  {
+    "id": "113-2921680-8264252",
+    "amazon_order_id": "113-2921680-8264252",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-09T04:11:26Z",
+    "order_status": "Shipped",
+    "order_total": 17.31,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.5965,
+    "estimated_proceeds": 14.7135,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:14.326888"
+  },
+  {
+    "id": "111-3638743-8693049",
+    "amazon_order_id": "111-3638743-8693049",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-09T02:03:31Z",
+    "order_status": "Shipped",
+    "order_total": 25.16,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "2A-5ASO-0RR2",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 3.774,
+    "estimated_proceeds": 21.386,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:15.951886"
+  },
+  {
+    "id": "112-4553923-9317805",
+    "amazon_order_id": "112-4553923-9317805",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-09T03:56:47Z",
+    "order_status": "Shipped",
+    "order_total": 143.25,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "Artimud300g-4PACK",
+        "title": "Red Horse Products Artimud 300g Official 4-Pack",
+        "quantity": 1,
+        "item_price": 129.99
+      }
+    ],
+    "estimated_fees": 21.4875,
+    "estimated_proceeds": 121.7625,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:17.528895"
+  },
+  {
+    "id": "112-9640565-9471401",
+    "amazon_order_id": "112-9640565-9471401",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-09T01:20:35Z",
+    "order_status": "Shipped",
+    "order_total": 22.79,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "OJ-5ZZ9-BJF5",
+        "title": "Crosby Pure Bone Bridge Pins for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 14.99
+      }
+    ],
+    "estimated_fees": 3.4185,
+    "estimated_proceeds": 19.371499999999997,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:19.438215"
+  },
+  {
+    "id": "111-8846985-9535430",
+    "amazon_order_id": "111-8846985-9535430",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-08T20:42:52Z",
+    "order_status": "Shipped",
+    "order_total": 16.0,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "OJ-5ZZ9-BJF5",
+        "title": "Crosby Pure Bone Bridge Pins for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 14.99
+      }
+    ],
+    "estimated_fees": 2.4,
+    "estimated_proceeds": 13.6,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:21.085247"
+  },
+  {
+    "id": "112-3802458-0901806",
+    "amazon_order_id": "112-3802458-0901806",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-08T17:38:10Z",
+    "order_status": "Shipped",
+    "order_total": 17.43,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.6145,
+    "estimated_proceeds": 14.8155,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:22.706623"
+  },
+  {
+    "id": "114-9266351-7585829",
+    "amazon_order_id": "114-9266351-7585829",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-09T17:05:03Z",
+    "order_status": "Shipped",
+    "order_total": 16.32,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "OJ-5ZZ9-BJF5",
+        "title": "Crosby Pure Bone Bridge Pins for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 14.99
+      }
+    ],
+    "estimated_fees": 2.448,
+    "estimated_proceeds": 13.872,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:24.399515"
+  },
+  {
+    "id": "111-7159268-1717810",
+    "amazon_order_id": "111-7159268-1717810",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-09T23:20:18Z",
+    "order_status": "Shipped",
+    "order_total": 17.11,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.5665,
+    "estimated_proceeds": 14.5435,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:26.033524"
+  },
+  {
+    "id": "114-5639162-3045861",
+    "amazon_order_id": "114-5639162-3045861",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-09T03:49:33Z",
+    "order_status": "Shipped",
+    "order_total": 15.89,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "OJ-5ZZ9-BJF5",
+        "title": "Crosby Pure Bone Bridge Pins for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 14.99
+      }
+    ],
+    "estimated_fees": 2.3835,
+    "estimated_proceeds": 13.5065,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:27.640968"
+  },
+  {
+    "id": "114-6886003-6655443",
+    "amazon_order_id": "114-6886003-6655443",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-09T18:59:09Z",
+    "order_status": "Shipped",
+    "order_total": 114.72,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "3R-EO0K-5718",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 2,
+        "item_price": 107.98
+      }
+    ],
+    "estimated_fees": 17.208,
+    "estimated_proceeds": 97.512,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:29.368186"
+  },
+  {
+    "id": "112-5224651-4520243",
+    "amazon_order_id": "112-5224651-4520243",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-10T21:37:40Z",
+    "order_status": "Shipped",
+    "order_total": 17.37,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.6055,
+    "estimated_proceeds": 14.764500000000002,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:31.080831"
+  },
+  {
+    "id": "112-1925213-6837002",
+    "amazon_order_id": "112-1925213-6837002",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-07T20:47:23Z",
+    "order_status": "Shipped",
+    "order_total": 58.58,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "3R-EO0K-5718",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 1,
+        "item_price": 53.99
+      }
+    ],
+    "estimated_fees": 8.786999999999999,
+    "estimated_proceeds": 49.793,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:33.949849"
+  },
+  {
+    "id": "113-2814679-4617009",
+    "amazon_order_id": "113-2814679-4617009",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-10T08:33:05Z",
+    "order_status": "Shipped",
+    "order_total": 18.73,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GripPack",
+        "title": "Crosby Pedalboard Grip Kit - 10 Feet (3m) of Heavy Duty Hook & Loop Tape Plus 6 Reusable Cable Ties for Guitar or Bass Pedal Board Mounting and Cable Management",
+        "quantity": 1,
+        "item_price": 16.99
+      }
+    ],
+    "estimated_fees": 2.8095,
+    "estimated_proceeds": 15.9205,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:36.255915"
+  },
+  {
+    "id": "112-5561804-6263464",
+    "amazon_order_id": "112-5561804-6263464",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-11T03:36:10Z",
+    "order_status": "Shipped",
+    "order_total": 16.45,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "WQ-ZVI0-B64B",
+        "title": "Crosby Pure Bone Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 14.99
+      }
+    ],
+    "estimated_fees": 2.4675,
+    "estimated_proceeds": 13.9825,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:37.850616"
+  },
+  {
+    "id": "111-9613923-9396260",
+    "amazon_order_id": "111-9613923-9396260",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-08T22:35:58Z",
+    "order_status": "Shipped",
+    "order_total": 17.59,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.6385,
+    "estimated_proceeds": 14.9515,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:39.476444"
+  },
+  {
+    "id": "114-0184460-4796211",
+    "amazon_order_id": "114-0184460-4796211",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-11T03:23:29Z",
+    "order_status": "Shipped",
+    "order_total": 13.85,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "PianoStickers",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.0774999999999997,
+    "estimated_proceeds": 11.7725,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:41.110719"
+  },
+  {
+    "id": "112-7034086-1498626",
+    "amazon_order_id": "112-7034086-1498626",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-11T10:11:03Z",
+    "order_status": "Shipped",
+    "order_total": 137.79,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "Artimud300g-4PACK",
+        "title": "Red Horse Products Artimud 300g Official 4-Pack",
+        "quantity": 1,
+        "item_price": 129.99
+      }
+    ],
+    "estimated_fees": 20.668499999999998,
+    "estimated_proceeds": 117.1215,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:42.709015"
+  },
+  {
+    "id": "113-4465725-4885003",
+    "amazon_order_id": "113-4465725-4885003",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-01T12:43:40Z",
+    "order_status": "Shipped",
+    "order_total": 59.46,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "89-C1E0-7C86",
+        "title": "Caline DCP-03 DEVILFISH Chorus Delay Effect Pedal Dual Guitar Pedal",
+        "quantity": 1,
+        "item_price": 59.46
+      }
+    ],
+    "estimated_fees": 8.919,
+    "estimated_proceeds": 50.541,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:44.521702"
+  },
+  {
+    "id": "111-4317967-4973037",
+    "amazon_order_id": "111-4317967-4973037",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-12T22:14:37Z",
+    "order_status": "Shipped",
+    "order_total": 14.11,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "2A-5ASO-0RR2",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.1165,
+    "estimated_proceeds": 11.9935,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:46.255975"
+  },
+  {
+    "id": "112-0037356-7653045",
+    "amazon_order_id": "112-0037356-7653045",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-12T19:56:57Z",
+    "order_status": "Shipped",
+    "order_total": 18.14,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GripPack",
+        "title": "Crosby Pedalboard Grip Kit - 10 Feet (3m) of Heavy Duty Hook & Loop Tape Plus 6 Reusable Cable Ties for Guitar or Bass Pedal Board Mounting and Cable Management",
+        "quantity": 1,
+        "item_price": 16.99
+      }
+    ],
+    "estimated_fees": 2.721,
+    "estimated_proceeds": 15.419,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:47.905078"
+  },
+  {
+    "id": "111-0724340-8683440",
+    "amazon_order_id": "111-0724340-8683440",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-11T00:06:42Z",
+    "order_status": "Shipped",
+    "order_total": 16.85,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GW-K2UU-FNXD",
+        "title": "Crosby Pure Ebony Bridge Pins with Abalone Dot Inlay for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 15.99
+      }
+    ],
+    "estimated_fees": 2.5275000000000003,
+    "estimated_proceeds": 14.322500000000002,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:50.482983"
+  },
+  {
+    "id": "113-9438916-6983466",
+    "amazon_order_id": "113-9438916-6983466",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-13T00:34:34Z",
+    "order_status": "Shipped",
+    "order_total": 12.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "2A-5ASO-0RR2",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 1.9485,
+    "estimated_proceeds": 11.041500000000001,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:52.233823"
+  },
+  {
+    "id": "111-2921802-7430618",
+    "amazon_order_id": "111-2921802-7430618",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-16T01:28:46Z",
+    "order_status": "Shipped",
+    "order_total": 14.13,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "PianoStickers",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.1195,
+    "estimated_proceeds": 12.0105,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:55.360767"
+  },
+  {
+    "id": "113-6595926-8829016",
+    "amazon_order_id": "113-6595926-8829016",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-14T20:54:07Z",
+    "order_status": "Shipped",
+    "order_total": 14.1,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "2A-5ASO-0RR2",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.1149999999999998,
+    "estimated_proceeds": 11.985,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:56.964863"
+  },
+  {
+    "id": "113-7926945-8921003",
+    "amazon_order_id": "113-7926945-8921003",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-16T20:33:01Z",
+    "order_status": "Shipped",
+    "order_total": 14.13,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "PianoStickers",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.1195,
+    "estimated_proceeds": 12.0105,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:08:58.548387"
+  },
+  {
+    "id": "112-9233890-4705834",
+    "amazon_order_id": "112-9233890-4705834",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-16T18:36:41Z",
+    "order_status": "Shipped",
+    "order_total": 13.64,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "2A-5ASO-0RR2",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.046,
+    "estimated_proceeds": 11.594000000000001,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:00.273193"
+  },
+  {
+    "id": "112-5717789-7312240",
+    "amazon_order_id": "112-5717789-7312240",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-17T00:34:19Z",
+    "order_status": "Shipped",
+    "order_total": 18.18,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GripPack",
+        "title": "Crosby Pedalboard Grip Kit - 10 Feet (3m) of Heavy Duty Hook & Loop Tape Plus 6 Reusable Cable Ties for Guitar or Bass Pedal Board Mounting and Cable Management",
+        "quantity": 1,
+        "item_price": 16.99
+      }
+    ],
+    "estimated_fees": 2.727,
+    "estimated_proceeds": 15.453,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:01.946509"
+  },
+  {
+    "id": "113-1963730-8851422",
+    "amazon_order_id": "113-1963730-8851422",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-14T18:52:37Z",
+    "order_status": "Shipped",
+    "order_total": 14.32,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "2A-5ASO-0RR2",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.148,
+    "estimated_proceeds": 12.172,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:03.869144"
+  },
+  {
+    "id": "111-5359610-5437840",
+    "amazon_order_id": "111-5359610-5437840",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-17T00:50:15Z",
+    "order_status": "Shipped",
+    "order_total": 14.45,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "PianoStickers",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.1675,
+    "estimated_proceeds": 12.282499999999999,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:05.659312"
+  },
+  {
+    "id": "111-3850429-1784240",
+    "amazon_order_id": "111-3850429-1784240",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-17T21:17:47Z",
+    "order_status": "Shipped",
+    "order_total": 72.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "HYD500",
+        "title": "Red Horse Products - HydroHoof (500ml)",
+        "quantity": 1,
+        "item_price": 72.99
+      }
+    ],
+    "estimated_fees": 10.9485,
+    "estimated_proceeds": 62.0415,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:07.326313"
+  },
+  {
+    "id": "113-5179997-4022608",
+    "amazon_order_id": "113-5179997-4022608",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-14T16:11:36Z",
+    "order_status": "Shipped",
+    "order_total": 13.9,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "PianoStickers",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.085,
+    "estimated_proceeds": 11.815000000000001,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:08.948389"
+  },
+  {
+    "id": "112-9220025-6812253",
+    "amazon_order_id": "112-9220025-6812253",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-18T23:33:27Z",
+    "order_status": "Shipped",
+    "order_total": 18.46,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GripPack",
+        "title": "Crosby Pedalboard Grip Kit - 10 Feet (3m) of Heavy Duty Hook & Loop Tape Plus 6 Reusable Cable Ties for Guitar or Bass Pedal Board Mounting and Cable Management",
+        "quantity": 1,
+        "item_price": 16.99
+      }
+    ],
+    "estimated_fees": 2.769,
+    "estimated_proceeds": 15.691,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:10.776187"
+  },
+  {
+    "id": "111-2168152-9094615",
+    "amazon_order_id": "111-2168152-9094615",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-17T01:18:36Z",
+    "order_status": "Shipped",
+    "order_total": 139.41,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "Artimud300g-4PACK",
+        "title": "Red Horse Products Artimud 300g Official 4-Pack",
+        "quantity": 1,
+        "item_price": 129.99
+      }
+    ],
+    "estimated_fees": 20.9115,
+    "estimated_proceeds": 118.49849999999999,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:12.362567"
+  },
+  {
+    "id": "112-0547132-3572261",
+    "amazon_order_id": "112-0547132-3572261",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-18T21:12:47Z",
+    "order_status": "Shipped",
+    "order_total": 13.96,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "PianoStickers",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.094,
+    "estimated_proceeds": 11.866000000000001,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:14.356078"
+  },
+  {
+    "id": "114-3863975-9417826",
+    "amazon_order_id": "114-3863975-9417826",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-19T03:09:32Z",
+    "order_status": "Shipped",
+    "order_total": 13.9,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "2A-5ASO-0RR2",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.085,
+    "estimated_proceeds": 11.815000000000001,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:16.081008"
+  },
+  {
+    "id": "114-5137343-6073838",
+    "amazon_order_id": "114-5137343-6073838",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-18T22:17:38Z",
+    "order_status": "Shipped",
+    "order_total": 13.96,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "PianoStickers",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.094,
+    "estimated_proceeds": 11.866000000000001,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:17.809367"
+  },
+  {
+    "id": "113-3810260-6802634",
+    "amazon_order_id": "113-3810260-6802634",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-19T19:59:38Z",
+    "order_status": "Shipped",
+    "order_total": 38.34,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g",
+        "quantity": 1,
+        "item_price": 36.69
+      }
+    ],
+    "estimated_fees": 5.751,
+    "estimated_proceeds": 32.589000000000006,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:19.442243"
+  },
+  {
+    "id": "111-7685220-8621066",
+    "amazon_order_id": "111-7685220-8621066",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-20T02:40:02Z",
+    "order_status": "Shipped",
+    "order_total": 14.3,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "2A-5ASO-0RR2",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.145,
+    "estimated_proceeds": 12.155000000000001,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:22.426079"
+  },
+  {
+    "id": "113-6749145-2625058",
+    "amazon_order_id": "113-6749145-2625058",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-19T15:42:46Z",
+    "order_status": "Shipped",
+    "order_total": 32.37,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "CrosbyConnector2Pack",
+        "title": "Crosby Solderless Pedalboard Cable Kit - 2 Pack of Gold Tip Connectors with Magnetic Screws Make 1 DIY Custom Patch Cable",
+        "quantity": 3,
+        "item_price": 29.97
+      }
+    ],
+    "estimated_fees": 4.855499999999999,
+    "estimated_proceeds": 27.514499999999998,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:24.008655"
+  },
+  {
+    "id": "111-2630432-8845021",
+    "amazon_order_id": "111-2630432-8845021",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-20T15:15:44Z",
+    "order_status": "Shipped",
+    "order_total": 14.14,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "PianoStickers",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.121,
+    "estimated_proceeds": 12.019,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:25.678496"
+  },
+  {
+    "id": "111-0951223-3769023",
+    "amazon_order_id": "111-0951223-3769023",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-12T15:01:54Z",
+    "order_status": "Shipped",
+    "order_total": 14.14,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "PianoStickers",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.121,
+    "estimated_proceeds": 12.019,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:27.438155"
+  },
+  {
+    "id": "114-6516288-2826663",
+    "amazon_order_id": "114-6516288-2826663",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-20T16:26:04Z",
+    "order_status": "Shipped",
+    "order_total": 63.92,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "89-C1E0-7C86",
+        "title": "Caline DCP-03 DEVILFISH Chorus Delay Effect Pedal Dual Guitar Pedal",
+        "quantity": 1,
+        "item_price": 59.46
+      }
+    ],
+    "estimated_fees": 9.588,
+    "estimated_proceeds": 54.332,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:29.162527"
+  },
+  {
+    "id": "112-7951343-5858621",
+    "amazon_order_id": "112-7951343-5858621",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-20T01:43:50Z",
+    "order_status": "Shipped",
+    "order_total": 14.06,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "PianoStickers",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.109,
+    "estimated_proceeds": 11.951,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:30.776530"
+  },
+  {
+    "id": "114-8176151-6650640",
+    "amazon_order_id": "114-8176151-6650640",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-22T00:09:18Z",
+    "order_status": "Shipped",
+    "order_total": 14.13,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "PianoStickers",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.1195,
+    "estimated_proceeds": 12.0105,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:32.735306"
+  },
+  {
+    "id": "111-4038950-7745022",
+    "amazon_order_id": "111-4038950-7745022",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-22T00:54:35Z",
+    "order_status": "Shipped",
+    "order_total": 32.43,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "CrosbyConnector2Pack",
+        "title": "Crosby Solderless Pedalboard Cable Kit - 2 Pack of Gold Tip Connectors with Magnetic Screws Make 1 DIY Custom Patch Cable",
+        "quantity": 3,
+        "item_price": 29.97
+      }
+    ],
+    "estimated_fees": 4.8645,
+    "estimated_proceeds": 27.5655,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:34.326439"
+  },
+  {
+    "id": "111-2425095-2636244",
+    "amazon_order_id": "111-2425095-2636244",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-22T16:47:27Z",
+    "order_status": "Shipped",
+    "order_total": 18.01,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GripPack",
+        "title": "Crosby Pedalboard Grip Kit - 10 Feet (3m) of Heavy Duty Hook & Loop Tape Plus 6 Reusable Cable Ties for Guitar or Bass Pedal Board Mounting and Cable Management",
+        "quantity": 1,
+        "item_price": 16.99
+      }
+    ],
+    "estimated_fees": 2.7015000000000002,
+    "estimated_proceeds": 15.308500000000002,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:35.919835"
+  },
+  {
+    "id": "113-5950815-9016210",
+    "amazon_order_id": "113-5950815-9016210",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-22T12:01:52Z",
+    "order_status": "Shipped",
+    "order_total": 43.01,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "SP500",
+        "title": "Red Horse Products - Sole Paint (500ml)",
+        "quantity": 1,
+        "item_price": 43.01
+      }
+    ],
+    "estimated_fees": 6.451499999999999,
+    "estimated_proceeds": 36.558499999999995,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:37.636024"
+  },
+  {
+    "id": "112-9341620-5399408",
+    "amazon_order_id": "112-9341620-5399408",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-24T02:12:33Z",
+    "order_status": "Shipped",
+    "order_total": 18.18,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GripPack",
+        "title": "Crosby Pedalboard Grip Kit - 10 Feet (3m) of Heavy Duty Hook & Loop Tape Plus 6 Reusable Cable Ties for Guitar or Bass Pedal Board Mounting and Cable Management",
+        "quantity": 1,
+        "item_price": 16.99
+      }
+    ],
+    "estimated_fees": 2.727,
+    "estimated_proceeds": 15.453,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:39.264248"
+  },
+  {
+    "id": "113-3317921-9020254",
+    "amazon_order_id": "113-3317921-9020254",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-23T16:25:00Z",
+    "order_status": "Shipped",
+    "order_total": 14.11,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "PianoStickers",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.1165,
+    "estimated_proceeds": 11.9935,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:40.856067"
+  },
+  {
+    "id": "114-7614164-7861862",
+    "amazon_order_id": "114-7614164-7861862",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-20T21:37:03Z",
+    "order_status": "Shipped",
+    "order_total": 47.69,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "CU-EO8Z-DSKN",
+        "title": "Red Horse Products Honey Heel (500ml) Honey Rapid Wound Repair Ointment, Manuka Honey, Veterinarian Tested Horse & Animal Wound Care, 500ml tub",
+        "quantity": 1,
+        "item_price": 44.99
+      }
+    ],
+    "estimated_fees": 7.153499999999999,
+    "estimated_proceeds": 40.5365,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:42.458150"
+  },
+  {
+    "id": "113-9063495-4024246",
+    "amazon_order_id": "113-9063495-4024246",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-23T15:37:16Z",
+    "order_status": "Shipped",
+    "order_total": 13.77,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "PianoStickers",
+        "title": "Crosby Monster Piano Stickers for Learning Piano or Keyboard - Transparent 88, 76, 61 & 49 Removable Key Set for Kids & Beginners",
+        "quantity": 1,
+        "item_price": 12.99
+      }
+    ],
+    "estimated_fees": 2.0654999999999997,
+    "estimated_proceeds": 11.7045,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:44.210987"
+  },
+  {
+    "id": "113-6282430-1381801",
+    "amazon_order_id": "113-6282430-1381801",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-24T15:56:25Z",
+    "order_status": "Shipped",
+    "order_total": 21.74,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "OJ-5ZZ9-BJF5",
+        "title": "Crosby Pure Bone Bridge Pins for 6 & 12 String Acoustic Guitar",
+        "quantity": 1,
+        "item_price": 14.99
+      }
+    ],
+    "estimated_fees": 3.2609999999999997,
+    "estimated_proceeds": 18.479,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:45.896068"
+  },
+  {
+    "id": "113-0571790-2257809",
+    "amazon_order_id": "113-0571790-2257809",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-23T12:07:12Z",
+    "order_status": "Shipped",
+    "order_total": 69.44,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "6K-00PO-V9GZ",
+        "title": "Merle Norman - Lasting Cheekcolor - Razzle Dazzle",
+        "quantity": 1,
+        "item_price": 64.9
+      }
+    ],
+    "estimated_fees": 10.415999999999999,
+    "estimated_proceeds": 59.024,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:47.559464"
+  },
+  {
+    "id": "113-9484358-6253015",
+    "amazon_order_id": "113-9484358-6253015",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2024-01-24T21:14:29Z",
+    "order_status": "Shipped",
+    "order_total": 18.18,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "GripPack",
+        "title": "Crosby Pedalboard Grip Kit - 10 Feet (3m) of Heavy Duty Hook & Loop Tape Plus 6 Reusable Cable Ties for Guitar or Bass Pedal Board Mounting and Cable Management",
+        "quantity": 1,
+        "item_price": 16.99
+      }
+    ],
+    "estimated_fees": 2.727,
+    "estimated_proceeds": 15.453,
+    "fulfillment_channel": "AFN",
+    "updated_at": "2026-01-27T11:09:49.150298"
+  },
+  {
+    "id": "114-5763866-2865004",
+    "amazon_order_id": "114-5763866-2865004",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-27T00:50:55+00:00",
+    "order_status": "Shipped",
+    "order_total": 57.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 57.99
+      }
+    ],
+    "estimated_fees": 8.6985,
+    "estimated_proceeds": 49.2915,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "114-4070589-6973041",
+    "amazon_order_id": "114-4070589-6973041",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-24T16:50:08+00:00",
+    "order_status": "Shipped",
+    "order_total": 78.06,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "SP500",
+        "title": "Red Horse Products Sole Paint - Strong Active Ingredients | Cleanses, Strengthens, and Supports Hoof Health | Easy-to-Use Formula for Deep Cleaning an",
+        "quantity": 0,
+        "item_price": 49.07
+      },
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 11.709,
+    "estimated_proceeds": 66.351,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-0188869-8860216",
+    "amazon_order_id": "111-0188869-8860216",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-21T18:38:05+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-6996354-2465854",
+    "amazon_order_id": "111-6996354-2465854",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-21T03:16:39+00:00",
+    "order_status": "Shipped",
+    "order_total": 48.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "STR500",
+        "title": "Red Horse Products - Stronghorn ( 500ml ) (with info guide)",
+        "quantity": 0,
+        "item_price": 48.99
+      }
+    ],
+    "estimated_fees": 7.3485,
+    "estimated_proceeds": 41.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "114-7498372-7512252",
+    "amazon_order_id": "114-7498372-7512252",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-20T12:41:08+00:00",
+    "order_status": "Shipped",
+    "order_total": 46.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 46.99
+      }
+    ],
+    "estimated_fees": 7.0485,
+    "estimated_proceeds": 39.941500000000005,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "113-4144113-5509841",
+    "amazon_order_id": "113-4144113-5509841",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-19T14:57:08+00:00",
+    "order_status": "Shipped",
+    "order_total": 46.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 46.99
+      }
+    ],
+    "estimated_fees": 7.0485,
+    "estimated_proceeds": 39.941500000000005,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "113-6128054-2073835",
+    "amazon_order_id": "113-6128054-2073835",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-19T02:37:29+00:00",
+    "order_status": "Shipped",
+    "order_total": 48.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "STR500",
+        "title": "Red Horse Products - Stronghorn ( 500ml ) (with info guide)",
+        "quantity": 0,
+        "item_price": 48.99
+      }
+    ],
+    "estimated_fees": 7.3485,
+    "estimated_proceeds": 41.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "113-6353254-6547401",
+    "amazon_order_id": "113-6353254-6547401",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-19T01:57:49+00:00",
+    "order_status": "Cancelled",
+    "order_total": 0.0,
+    "currency": "",
+    "items": [
+      {
+        "sku": "STR500",
+        "title": "Red Horse Products - Stronghorn ( 500ml ) (with info guide)",
+        "quantity": 0,
+        "item_price": 0.0
+      }
+    ],
+    "estimated_fees": 0.0,
+    "estimated_proceeds": 0.0,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "112-7453073-5793827",
+    "amazon_order_id": "112-7453073-5793827",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-17T14:34:10+00:00",
+    "order_status": "Shipped",
+    "order_total": 46.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 46.99
+      }
+    ],
+    "estimated_fees": 7.0485,
+    "estimated_proceeds": 39.941500000000005,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-9110495-5550655",
+    "amazon_order_id": "111-9110495-5550655",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-17T03:09:02+00:00",
+    "order_status": "Shipped",
+    "order_total": 46.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 46.99
+      }
+    ],
+    "estimated_fees": 7.0485,
+    "estimated_proceeds": 39.941500000000005,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "114-0736863-4777862",
+    "amazon_order_id": "114-0736863-4777862",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-14T21:53:25+00:00",
+    "order_status": "Shipped",
+    "order_total": 46.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 46.99
+      }
+    ],
+    "estimated_fees": 7.0485,
+    "estimated_proceeds": 39.941500000000005,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "112-3349314-2389058",
+    "amazon_order_id": "112-3349314-2389058",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-14T15:51:10+00:00",
+    "order_status": "Shipped",
+    "order_total": 69.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "23-EL2Y-RR79",
+        "title": "Red Horse Products - Rider Rescue Gift Box Set",
+        "quantity": 0,
+        "item_price": 69.99
+      }
+    ],
+    "estimated_fees": 10.498499999999998,
+    "estimated_proceeds": 59.491499999999995,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "113-1385999-0625862",
+    "amazon_order_id": "113-1385999-0625862",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-14T05:58:16+00:00",
+    "order_status": "Cancelled",
+    "order_total": 0.0,
+    "currency": "",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "Artimud 300g - hoof Putty - Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail Holes, banishes h",
+        "quantity": 0,
+        "item_price": 0.0
+      }
+    ],
+    "estimated_fees": 0.0,
+    "estimated_proceeds": 0.0,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "114-3791803-1306613",
+    "amazon_order_id": "114-3791803-1306613",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-11T01:15:25+00:00",
+    "order_status": "Shipped",
+    "order_total": 46.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 46.99
+      }
+    ],
+    "estimated_fees": 7.0485,
+    "estimated_proceeds": 39.941500000000005,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-9481360-8159426",
+    "amazon_order_id": "111-9481360-8159426",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-09T21:24:29+00:00",
+    "order_status": "Shipped",
+    "order_total": 46.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 46.99
+      }
+    ],
+    "estimated_fees": 7.0485,
+    "estimated_proceeds": 39.941500000000005,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-1947545-0538630",
+    "amazon_order_id": "111-1947545-0538630",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-09T04:42:30+00:00",
+    "order_status": "Shipped",
+    "order_total": 48.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "STR500",
+        "title": "Red Horse Products - Stronghorn ( 500ml ) (with info guide)",
+        "quantity": 0,
+        "item_price": 48.99
+      }
+    ],
+    "estimated_fees": 7.3485,
+    "estimated_proceeds": 41.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "114-6012418-7571449",
+    "amazon_order_id": "114-6012418-7571449",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-09T04:40:39+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "Artimud 300g - hoof Putty - Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail Holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-0025840-6063442",
+    "amazon_order_id": "111-0025840-6063442",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-08T20:46:10+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-5658915-1803412",
+    "amazon_order_id": "111-5658915-1803412",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-08T20:14:19+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "114-4567192-9709011",
+    "amazon_order_id": "114-4567192-9709011",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-08T11:25:30+00:00",
+    "order_status": "Shipped",
+    "order_total": 46.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 46.99
+      }
+    ],
+    "estimated_fees": 7.0485,
+    "estimated_proceeds": 39.941500000000005,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-1867838-9264254",
+    "amazon_order_id": "111-1867838-9264254",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-08T03:28:14+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud 300g - hoof Putty - Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail Holes, banishes h",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "112-7872825-4210621",
+    "amazon_order_id": "112-7872825-4210621",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-08T01:42:35+00:00",
+    "order_status": "Shipped",
+    "order_total": 46.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 46.99
+      }
+    ],
+    "estimated_fees": 7.0485,
+    "estimated_proceeds": 39.941500000000005,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "114-1044495-3498651",
+    "amazon_order_id": "114-1044495-3498651",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-07T22:01:30+00:00",
+    "order_status": "Shipped",
+    "order_total": 57.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "XY-8X1K-CWFV",
+        "title": "Red Horse Products Artimud 300g and Stronghorn 500ml Official",
+        "quantity": 0,
+        "item_price": 57.99
+      }
+    ],
+    "estimated_fees": 8.6985,
+    "estimated_proceeds": 49.2915,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-3276193-8333064",
+    "amazon_order_id": "111-3276193-8333064",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-07T19:19:59+00:00",
+    "order_status": "Shipped",
+    "order_total": 29.63,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 29.63
+      }
+    ],
+    "estimated_fees": 4.4445,
+    "estimated_proceeds": 25.185499999999998,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "114-7662164-1151436",
+    "amazon_order_id": "114-7662164-1151436",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-07T18:18:15+00:00",
+    "order_status": "Cancelled",
+    "order_total": 0.0,
+    "currency": "",
+    "items": [
+      {
+        "sku": "XM-6O19-YLRS",
+        "title": "Red Horse Products - Hoof-Stuff (290g)",
+        "quantity": 0,
+        "item_price": 0.0
+      }
+    ],
+    "estimated_fees": 0.0,
+    "estimated_proceeds": 0.0,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "112-1863636-1785061",
+    "amazon_order_id": "112-1863636-1785061",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-06T23:34:48+00:00",
+    "order_status": "Cancelled",
+    "order_total": 0.0,
+    "currency": "",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "Artimud 300g - hoof Putty - Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus Thrush, hoof Cracks, Nail Holes, banishes h",
+        "quantity": 0,
+        "item_price": 0.0
+      }
+    ],
+    "estimated_fees": 0.0,
+    "estimated_proceeds": 0.0,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-2009899-7914600",
+    "amazon_order_id": "111-2009899-7914600",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-06T19:28:47+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-8579904-5847448",
+    "amazon_order_id": "111-8579904-5847448",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-06T18:37:20+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "112-2614936-2469062",
+    "amazon_order_id": "112-2614936-2469062",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-06T16:57:28+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "113-1247776-2279441",
+    "amazon_order_id": "113-1247776-2279441",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-05T10:15:56+00:00",
+    "order_status": "Shipped",
+    "order_total": 50.46,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "CU-EO8Z-DSKN",
+        "title": "Red Horse Products Honey Heel (500ml) Honey Rapid Wound Repair Ointment, Manuka Honey, Veterinarian Tested Horse & Animal Wound Care, 500ml tub",
+        "quantity": 0,
+        "item_price": 50.46
+      }
+    ],
+    "estimated_fees": 7.569,
+    "estimated_proceeds": 42.891,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "114-5592224-2293060",
+    "amazon_order_id": "114-5592224-2293060",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-05T09:55:35+00:00",
+    "order_status": "Shipped",
+    "order_total": 50.46,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "CU-EO8Z-DSKN",
+        "title": "Red Horse Products Honey Heel (500ml) Honey Rapid Wound Repair Ointment, Manuka Honey, Veterinarian Tested Horse & Animal Wound Care, 500ml tub",
+        "quantity": 0,
+        "item_price": 50.46
+      }
+    ],
+    "estimated_fees": 7.569,
+    "estimated_proceeds": 42.891,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "112-4977584-5713012",
+    "amazon_order_id": "112-4977584-5713012",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-04T19:16:50+00:00",
+    "order_status": "Shipped",
+    "order_total": 48.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "STR500",
+        "title": "Red Horse Products - Stronghorn ( 500ml ) (with info guide)",
+        "quantity": 0,
+        "item_price": 48.99
+      }
+    ],
+    "estimated_fees": 7.3485,
+    "estimated_proceeds": 41.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-3823535-6051460",
+    "amazon_order_id": "111-3823535-6051460",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-03T19:08:29+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-8529854-2915423",
+    "amazon_order_id": "111-8529854-2915423",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-02T02:50:26+00:00",
+    "order_status": "Shipped",
+    "order_total": 48.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "STR500",
+        "title": "Red Horse Products - Stronghorn ( 500ml ) (with info guide)",
+        "quantity": 0,
+        "item_price": 48.99
+      }
+    ],
+    "estimated_fees": 7.3485,
+    "estimated_proceeds": 41.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "114-6847139-8440237",
+    "amazon_order_id": "114-6847139-8440237",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-01T02:23:07+00:00",
+    "order_status": "Shipped",
+    "order_total": 46.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 46.99
+      }
+    ],
+    "estimated_fees": 7.0485,
+    "estimated_proceeds": 39.941500000000005,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "112-5174091-3763415",
+    "amazon_order_id": "112-5174091-3763415",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-12-01T01:00:01+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "Artimud - hoof Putty - Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus thursh, hoof Cracks, Nail Holes",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "113-1559177-9951424",
+    "amazon_order_id": "113-1559177-9951424",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-11-30T19:42:00+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "Artimud - hoof Putty - Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus thursh, hoof Cracks, Nail Holes",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-9225106-4003432",
+    "amazon_order_id": "111-9225106-4003432",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-11-30T06:41:17+00:00",
+    "order_status": "Shipped",
+    "order_total": 87.98,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud - hoof Putty - Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus thursh, hoof Cracks, Nail Holes",
+        "quantity": 0,
+        "item_price": 38.99
+      },
+      {
+        "sku": "STR500",
+        "title": "Red Horse Products - Stronghorn ( 500ml ) (with info guide)",
+        "quantity": 0,
+        "item_price": 48.99
+      }
+    ],
+    "estimated_fees": 13.197,
+    "estimated_proceeds": 74.783,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "112-6624682-2122613",
+    "amazon_order_id": "112-6624682-2122613",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-11-30T05:24:28+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud - hoof Putty - Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus thursh, hoof Cracks, Nail Holes",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "113-0724873-9079421",
+    "amazon_order_id": "113-0724873-9079421",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-11-30T04:20:41+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "Artimud - hoof Putty - Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus thursh, hoof Cracks, Nail Holes",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-1571395-3039447",
+    "amazon_order_id": "111-1571395-3039447",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-11-29T21:55:48+00:00",
+    "order_status": "Shipped",
+    "order_total": 49.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "XM-6O19-YLRS",
+        "title": "Red Horse Products - Hoof-Stuff (290g)",
+        "quantity": 0,
+        "item_price": 49.99
+      }
+    ],
+    "estimated_fees": 7.4985,
+    "estimated_proceeds": 42.4915,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "112-3914579-1827403",
+    "amazon_order_id": "112-3914579-1827403",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-11-29T20:03:36+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "Artimud - hoof Putty - Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus thursh, hoof Cracks, Nail Holes",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "114-6196340-1076261",
+    "amazon_order_id": "114-6196340-1076261",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-11-29T17:30:07+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud - hoof Putty - Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus thursh, hoof Cracks, Nail Holes",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "114-3397751-4446661",
+    "amazon_order_id": "114-3397751-4446661",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-11-29T03:37:33+00:00",
+    "order_status": "Shipped",
+    "order_total": 28.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "ZD-3HSL-W7W1",
+        "title": "Red Horse Products Sole Cleanse 500ml",
+        "quantity": 0,
+        "item_price": 28.99
+      }
+    ],
+    "estimated_fees": 4.3485,
+    "estimated_proceeds": 24.6415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-4351702-2805835",
+    "amazon_order_id": "111-4351702-2805835",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-11-29T01:07:41+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud - hoof Putty - Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus thursh, hoof Cracks, Nail Holes",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-9076232-8145864",
+    "amazon_order_id": "111-9076232-8145864",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-11-29T00:45:08+00:00",
+    "order_status": "Shipped",
+    "order_total": 46.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "UG-2F0B-F5GQ",
+        "title": "FunDADYUS Red Horse Products LTD. Field Paste Antifungal Sole Dressing 500ml",
+        "quantity": 0,
+        "item_price": 46.99
+      }
+    ],
+    "estimated_fees": 7.0485,
+    "estimated_proceeds": 39.941500000000005,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "111-9676725-8176210",
+    "amazon_order_id": "111-9676725-8176210",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2025-11-28T21:53:32+00:00",
+    "order_status": "Shipped",
+    "order_total": 38.99,
+    "currency": "USD",
+    "items": [
+      {
+        "sku": "RH-ARTIMUD300",
+        "title": "Artimud - hoof Putty - Under Shoe/pad Packing, White line, seedy Toe, abcess Cavities, Central Sulcus thursh, hoof Cracks, Nail Holes",
+        "quantity": 0,
+        "item_price": 38.99
+      }
+    ],
+    "estimated_fees": 5.8485000000000005,
+    "estimated_proceeds": 33.1415,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:45:34.387678"
+  },
+  {
+    "id": "S01-1918335-7171447",
+    "amazon_order_id": "S01-1918335-7171447",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-21T20:42:02+00:00",
+    "order_status": "Cancelled",
+    "order_total": 0.0,
+    "currency": "",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "-",
+        "quantity": 0,
+        "item_price": 0.0
+      }
+    ],
+    "estimated_fees": 0.0,
+    "estimated_proceeds": 0.0,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.920173"
+  },
+  {
+    "id": "S01-5595445-0424715",
+    "amazon_order_id": "S01-5595445-0424715",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-21T17:54:29+00:00",
+    "order_status": "Shipped",
+    "order_total": 0.0,
+    "currency": "",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "-",
+        "quantity": 0,
+        "item_price": 0.0
+      }
+    ],
+    "estimated_fees": 0.0,
+    "estimated_proceeds": 0.0,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.920173"
+  },
+  {
+    "id": "S01-2638617-0374951",
+    "amazon_order_id": "S01-2638617-0374951",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-20T17:00:31+00:00",
+    "order_status": "Shipped",
+    "order_total": 0.0,
+    "currency": "",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "-",
+        "quantity": 0,
+        "item_price": 0.0
+      }
+    ],
+    "estimated_fees": 0.0,
+    "estimated_proceeds": 0.0,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "S01-3156885-4393431",
+    "amazon_order_id": "S01-3156885-4393431",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-19T19:14:30+00:00",
+    "order_status": "Shipped",
+    "order_total": 0.0,
+    "currency": "",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "-",
+        "quantity": 0,
+        "item_price": 0.0
+      }
+    ],
+    "estimated_fees": 0.0,
+    "estimated_proceeds": 0.0,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "S01-7557253-2926726",
+    "amazon_order_id": "S01-7557253-2926726",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-19T16:45:23+00:00",
+    "order_status": "Shipped",
+    "order_total": 0.0,
+    "currency": "",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "-",
+        "quantity": 0,
+        "item_price": 0.0
+      }
+    ],
+    "estimated_fees": 0.0,
+    "estimated_proceeds": 0.0,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "S01-9717039-9159800",
+    "amazon_order_id": "S01-9717039-9159800",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-18T16:07:25+00:00",
+    "order_status": "Shipped",
+    "order_total": 0.0,
+    "currency": "",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "-",
+        "quantity": 0,
+        "item_price": 0.0
+      }
+    ],
+    "estimated_fees": 0.0,
+    "estimated_proceeds": 0.0,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "S01-8272442-4036929",
+    "amazon_order_id": "S01-8272442-4036929",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-16T16:20:32+00:00",
+    "order_status": "Shipped",
+    "order_total": 0.0,
+    "currency": "",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "-",
+        "quantity": 0,
+        "item_price": 0.0
+      }
+    ],
+    "estimated_fees": 0.0,
+    "estimated_proceeds": 0.0,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  },
+  {
+    "id": "S01-3356535-4447128",
+    "amazon_order_id": "S01-3356535-4447128",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "purchase_date": "2026-01-15T16:56:38+00:00",
+    "order_status": "Shipped",
+    "order_total": 0.0,
+    "currency": "",
+    "items": [
+      {
+        "sku": "FBA1796Y7M94.missing1",
+        "title": "-",
+        "quantity": 0,
+        "item_price": 0.0
+      }
+    ],
+    "estimated_fees": 0.0,
+    "estimated_proceeds": 0.0,
+    "fulfillment_channel": "FBM",
+    "updated_at": "2026-01-27T11:46:08.921344"
+  }
+]

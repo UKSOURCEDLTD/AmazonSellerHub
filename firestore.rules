@@ -2,21 +2,8 @@ rules_version = '2';
 
 service cloud.firestore {
   match /databases/{database}/documents {
-    
-    // Helper function to check auth
-    function isAuthenticated() {
-      return request.auth != null;
-    }
-    
-    function isOwner(userId) {
-      return isAuthenticated() && request.auth.uid == userId;
-    }
-
-    // Default to allow public read for now (Development Mode)
-    // IMPORTANT: Lock this down before production!
     match /{document=**} {
-      allow read: if true;
-      allow write: if isOwner(request.auth.uid);
+      allow read, write: if true;
     }
   }
 }

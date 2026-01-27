@@ -1,44 +1,34 @@
-import { Truck, Search, Filter, MoreVertical, MapPin, Calendar, ArrowUpRight } from 'lucide-react';
+'use client';
+import { useState, useEffect } from 'react';
+import { Truck, Search, Filter, MoreVertical, MapPin, Calendar, ArrowUpRight, X, Package, AlertCircle } from 'lucide-react';
+import { db } from "@/lib/firebase";
+import { collection, onSnapshot, query, where } from "firebase/firestore";
 
 export default function ShipmentsPage() {
-    const shipments = [
-        {
-            id: 'SHP-2024-001',
-            destination: 'LBA4 - Leeds',
-            status: 'In Transit',
-            items: 450,
-            date: 'Jan 24, 2024',
-            carrier: 'UPS',
-            tracking: '1Z999AA10123456784'
-        },
-        {
-            id: 'SHP-2024-002',
-            destination: 'BHX4 - Coventry',
-            status: 'Delivered',
-            items: 120,
-            date: 'Jan 22, 2024',
-            carrier: 'DHL',
-            tracking: 'JD0146000032402123'
-        },
-        {
-            id: 'SHP-2024-003',
-            destination: 'MAN1 - Manchester',
-            status: 'Processing',
-            items: 850,
-            date: 'Jan 26, 2024',
-            carrier: 'Amazon Partnered',
-            tracking: 'Pending'
-        },
-        {
-            id: 'SHP-2024-004',
-            destination: 'LCY2 - Tilbury',
-            status: 'Created',
-            items: 200,
-            date: 'Jan 26, 2024',
-            carrier: 'Pending',
-            tracking: 'Pending'
-        }
-    ];
+    const [shipments, setShipments] = useState<any[]>([]);
+    const [selectedShipment, setSelectedShipment] = useState<any | null>(null);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        setLoading(true);
+        const q = collection(db, "shipments");
+        const unsubscribe = onSnapshot(q, (snapshot) => {
+            let data: any[] = [];
+            snapshot.forEach((doc) => {
+                data.push({ ...doc.data(), id: doc.id });
+            });
+            // Client-side sort by date descending (optional)
+            // data.sort((a: any, b: any) => new Date(b.created_date).getTime() - new Date(a.created_date).getTime());
+
+            setShipments(data);
+            setLoading(false);
+        }, (error) => {
+            console.error("Error fetching shipments:", error);
+            setLoading(false);
+        });
+
+        return () => unsubscribe();
+    }, []);
 
     const getStatusColor = (status: string) => {
         switch (status) {
@@ -64,23 +54,43 @@ export default function ShipmentsPage() {
 
             {/* Stats */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-                {[
-                    { label: 'Active Shipments', value: '12', change: '+2', trend: 'up' },
-                    { label: 'In Transit', value: '4', change: '0', trend: 'flat' },
-                    { label: 'Delivered (7d)', value: '8', change: '+3', trend: 'up' },
-                    { label: 'Total Items', value: '1,420', change: '+15%', trend: 'up' }
-                ].map((stat, i) => (
-                    <div key={i} className="bg-white p-4 rounded-xl border border-gray-100 shadow-sm">
-                        <p className="text-sm text-gray-500">{stat.label}</p>
-                        <div className="flex items-end justify-between mt-2">
-                            <h3 className="text-2xl font-bold text-gray-900">{stat.value}</h3>
-                            <span className={`text-xs font-medium px-2 py-1 rounded-full ${stat.trend === 'up' ? 'bg-green-50 text-green-700' : 'bg-gray-50 text-gray-700'
-                                }`}>
-                                {stat.change}
-                            </span>
+                {/* Stats */}
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+                    {[
+                        {
+                            label: 'Active Shipments',
+                            value: shipments.filter(s => ['WORKING', 'SHIPPED', 'IN_TRANSIT', 'RECEIVING'].includes(s.status)).length.toString(),
+                            change: '0',
+                            trend: 'flat'
+                        },
+                        {
+                            label: 'In Transit',
+                            value: shipments.filter(s => s.status === 'IN_TRANSIT').length.toString(),
+                            change: '0',
+                            trend: 'flat'
+                        },
+                        {
+                            label: 'Delivered (All)',
+                            value: shipments.filter(s => ['DELIVERED', 'CLOSED', 'CHECKED_IN'].includes(s.status)).length.toString(),
+                            change: '0',
+                            trend: 'flat'
+                        },
+                        {
+                            label: 'Items (Est)',
+                            value: shipments.reduce((acc, s) => acc + (s.items || 0), 0).toString(),
+                            change: '0',
+                            trend: 'flat'
+                        }
+                    ].map((stat, i) => (
+                        <div key={i} className="bg-white p-4 rounded-xl border border-gray-100 shadow-sm">
+                            <p className="text-sm text-gray-500">{stat.label}</p>
+                            <div className="flex items-end justify-between mt-2">
+                                <h3 className="text-2xl font-bold text-gray-900">{stat.value}</h3>
+                                {/* Trend UI hidden for now as we don't have historical delta */}
+                            </div>
                         </div>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </div>
 
             {/* Filters */}
@@ -120,15 +130,19 @@ export default function ShipmentsPage() {
                     </thead>
                     <tbody className="divide-y divide-gray-100">
                         {shipments.map((shipment) => (
-                            <tr key={shipment.id} className="hover:bg-gray-50 transition-colors">
+                            <tr
+                                key={shipment.id}
+                                className="hover:bg-gray-50 transition-colors cursor-pointer group"
+                                onClick={() => setSelectedShipment(shipment)}
+                            >
                                 <td className="px-6 py-4">
                                     <div className="flex items-center gap-3">
-                                        <div className="p-2 bg-gray-100 rounded-lg text-gray-600">
+                                        <div className="p-2 bg-gray-100 rounded-lg text-gray-600 group-hover:bg-amber-100 group-hover:text-amber-600 transition-colors">
                                             <Truck size={16} />
                                         </div>
                                         <div>
-                                            <span className="block text-sm font-medium text-gray-900">{shipment.id}</span>
-                                            <span className="block text-xs text-gray-500">{shipment.carrier}</span>
+                                            <span className="block text-sm font-medium text-gray-900">{shipment.shipment_name || shipment.id}</span>
+                                            <span className="block text-xs text-gray-500">{shipment.id}</span>
                                         </div>
                                     </div>
                                 </td>
@@ -147,7 +161,7 @@ export default function ShipmentsPage() {
                                     {shipment.items} units
                                 </td>
                                 <td className="px-6 py-4 text-sm text-gray-600">
-                                    {shipment.date}
+                                    {shipment.created_date || shipment.date}
                                 </td>
                                 <td className="px-6 py-4">
                                     <span className="text-xs font-mono text-gray-500 bg-gray-50 px-2 py-1 rounded border border-gray-100">
@@ -164,6 +178,113 @@ export default function ShipmentsPage() {
                     </tbody>
                 </table>
             </div>
-        </div>
+
+            {/* Shipment Details Modal */}
+            {
+                selectedShipment && (
+                    <div className="fixed inset-0 bg-black/50 z-50 flex justify-end transition-opacity" onClick={() => setSelectedShipment(null)}>
+                        <div className="bg-white w-full max-w-2xl h-full shadow-2xl p-6 overflow-y-auto animate-in slide-in-from-right-10 duration-200" onClick={e => e.stopPropagation()}>
+
+                            {/* Header */}
+                            <div className="flex justify-between items-start mb-6">
+                                <div>
+                                    <div className="flex items-center gap-2 mb-1">
+                                        <h2 className="text-2xl font-bold text-gray-900">{selectedShipment.shipment_name || selectedShipment.id}</h2>
+                                        <span className={`px-2.5 py-0.5 rounded-full text-xs font-medium ${getStatusColor(selectedShipment.status)}`}>
+                                            {selectedShipment.status}
+                                        </span>
+                                    </div>
+                                    <p className="text-gray-500 text-sm flex items-center gap-2">
+                                        <span className="font-mono">{selectedShipment.id}</span>
+                                        <span>•</span>
+                                        <span>Created {selectedShipment.created_date || selectedShipment.date}</span>
+                                    </p>
+                                </div>
+                                <button
+                                    onClick={() => setSelectedShipment(null)}
+                                    className="p-2 hover:bg-gray-100 rounded-full text-gray-500 transition-colors"
+                                >
+                                    <X size={24} />
+                                </button>
+                            </div>
+
+                            {/* Stats Grid */}
+                            <div className="grid grid-cols-2 gap-4 mb-8">
+                                <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                                    <div className="flex items-center gap-2 text-gray-500 mb-1">
+                                        <MapPin size={16} />
+                                        <span className="text-xs uppercase font-semibold">Destination</span>
+                                    </div>
+                                    <p className="text-lg font-medium text-gray-900">{selectedShipment.destination}</p>
+                                </div>
+                                <div className="p-4 bg-gray-50 rounded-xl border border-gray-100">
+                                    <div className="flex items-center gap-2 text-gray-500 mb-1">
+                                        <Truck size={16} />
+                                        <span className="text-xs uppercase font-semibold">Tracking</span>
+                                    </div>
+                                    <p className="text-lg font-medium text-gray-900 font-mono">{selectedShipment.tracking || 'N/A'}</p>
+                                </div>
+                            </div>
+
+                            {/* Contents Section */}
+                            <div className="space-y-4">
+                                <div className="flex items-center justify-between">
+                                    <h3 className="text-lg font-bold text-gray-900 flex items-center gap-2">
+                                        <Package size={20} className="text-gray-400" />
+                                        Shipment Contents
+                                    </h3>
+                                    <span className="bg-gray-100 text-gray-600 px-2 py-1 rounded text-xs font-medium">
+                                        {selectedShipment.shipment_items?.length || 0} SKUs
+                                    </span>
+                                </div>
+
+                                {!selectedShipment.shipment_items || selectedShipment.shipment_items.length === 0 ? (
+                                    <div className="text-center py-12 bg-gray-50 rounded-xl border border-dashed border-gray-200">
+                                        <Package size={32} className="mx-auto text-gray-300 mb-3" />
+                                        <p className="text-gray-500">No content data available.</p>
+                                        <p className="text-xs text-gray-400 mt-1">Run a sync to fetch item details.</p>
+                                    </div>
+                                ) : (
+                                    <div className="border border-gray-200 rounded-lg overflow-hidden">
+                                        <table className="w-full text-left text-sm">
+                                            <thead className="bg-gray-50 border-b border-gray-200">
+                                                <tr>
+                                                    <th className="px-4 py-3 font-semibold text-gray-600">SKU / Product</th>
+                                                    <th className="px-4 py-3 font-semibold text-gray-600 text-right">Shipped</th>
+                                                    <th className="px-4 py-3 font-semibold text-gray-600 text-right">Received</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody className="divide-y divide-gray-100">
+                                                {selectedShipment.shipment_items.map((item: any, idx: number) => (
+                                                    <tr key={idx} className="hover:bg-gray-50">
+                                                        <td className="px-4 py-3">
+                                                            <div className="font-medium text-gray-900">{item.sku}</div>
+                                                            <div className="text-xs text-gray-500 truncate max-w-[200px]">{item.fulfillment_network_sku}</div>
+                                                        </td>
+                                                        <td className="px-4 py-3 text-right font-medium text-gray-900">
+                                                            {item.quantity_shipped}
+                                                        </td>
+                                                        <td className="px-4 py-3 text-right">
+                                                            <span className={`
+                                                            ${item.quantity_received === item.quantity_shipped ? 'text-green-600 font-medium' : ''}
+                                                            ${item.quantity_received > 0 && item.quantity_received < item.quantity_shipped ? 'text-amber-600' : ''}
+                                                            ${item.quantity_received === 0 ? 'text-gray-400' : ''}
+                                                        `}>
+                                                                {item.quantity_received}
+                                                            </span>
+                                                        </td>
+                                                    </tr>
+                                                ))}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                )}
+                            </div>
+
+                        </div>
+                    </div>
+                )
+            }
+        </div >
     );
 }

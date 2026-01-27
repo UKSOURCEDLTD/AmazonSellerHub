@@ -6,14 +6,6 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   async rewrites() {
-    if (process.env.NODE_ENV === 'development') {
-      return [
-        {
-          source: '/api/manual_amazon_sync',
-          destination: 'http://localhost:5001/manual_amazon_sync',
-        },
-      ];
-    }
     return [];
   },
 };

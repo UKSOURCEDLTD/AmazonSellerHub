@@ -3,8 +3,6 @@
 import StatCard from "@/components/dashboard/StatCard";
 import { ArrowUpRight, CheckCircle2 } from "lucide-react";
 import { useEffect, useState } from "react";
-import { db } from "@/lib/firebase";
-import { collection, getDocs, query, where } from "firebase/firestore";
 
 interface OrderItem {
   sku: string;
@@ -18,6 +16,8 @@ interface Order {
   estimated_fees: number;
   items: OrderItem[];
   order_status: string;
+  currency: string;
+  purchase_date: string;
 }
 
 interface InventoryItem {
@@ -27,8 +27,19 @@ interface InventoryItem {
   status: string;
 }
 
+// Re-exporting interfaces if needed locally or just relying on imports
+// interfaces removed as they are now imported
+
+import DateRangePicker, { DateRange } from "@/components/dashboard/DateRangePicker";
+
 export default function Home() {
   const [loading, setLoading] = useState(true);
+  const [dateRange, setDateRange] = useState<DateRange>({
+    label: 'Last 30 Days',
+    start: new Date(new Date().setDate(new Date().getDate() - 30)),
+    end: new Date()
+  });
+
   const [metrics, setMetrics] = useState({
     totalSales: 0,
     totalFees: 0,
@@ -37,74 +48,117 @@ export default function Home() {
     margin: 0,
     inventoryCount: 0,
     inStockScore: 98, // Mocked for now
+    unitsSold: 0,
+    currency: '£', // Default to £ as requested
   });
 
+  // State for raw data
+  const [allOrders, setAllOrders] = useState<Order[]>([]);
+  const [inventoryData, setInventoryData] = useState<InventoryItem[]>([]);
+
   useEffect(() => {
-    async function fetchData() {
+    // Initial Data Fetch (Run once)
+    async function loadData() {
       try {
-        // 1. Fetch Inventory for COGS mapping
-        const inventorySnap = await getDocs(collection(db, "inventory"));
-        const skuToCogs: Record<string, number> = {};
-        let totalInventoryItems = 0;
+        console.log("Fetching Source Data...");
+        // 1. Fetch Inventory
+        const invRes = await fetch('/api/inventory');
+        const invData: InventoryItem[] = await invRes.json();
+        setInventoryData(invData);
 
-        inventorySnap.forEach(doc => {
-          const data = doc.data() as InventoryItem;
-          // IMPORTANT: Default to 0 if COGS is missing
-          skuToCogs[data.sku] = data.cogs || 0;
-          totalInventoryItems++;
-        });
+        // 2. Fetch Orders
+        const ordRes = await fetch('/api/orders');
+        const ordData: Order[] = await ordRes.json();
 
-        // 2. Fetch Orders for Sales & Fees
-        const ordersSnap = await getDocs(collection(db, "orders"));
+        // Sort orders by date descending just in case
+        ordData.sort((a, b) => new Date(b.purchase_date).getTime() - new Date(a.purchase_date).getTime());
 
-        let sales = 0;
-        let fees = 0;
-        let cogs = 0;
-
-        ordersSnap.forEach(doc => {
-          const order = doc.data() as Order;
-
-          // Skip canceled orders for specific metrics if desired, but for now include all verified sales
-          if (order.order_status === 'Canceled') return;
-
-          sales += order.order_total || 0;
-          fees += order.estimated_fees || 0;
-
-          // Calculate COGS for this order
-          if (order.items && Array.isArray(order.items)) {
-            order.items.forEach(item => {
-              const itemCogs = skuToCogs[item.sku] || 0; // Default 0 if SKU not found or COGS missing
-              cogs += itemCogs * (item.quantity || 1);
-            });
-          }
-        });
-
-        // 3. Constants (for now)
-        const mockAds = 12500; // Keep consistent with Finance Page mock
-        const mockRefunds = 0; // Assuming 'net' sales or separate fetch? For now 0.
-
-        const netProfit = sales - fees - cogs - mockAds - mockRefunds;
-        const margin = sales > 0 ? (netProfit / sales) * 100 : 0;
-
-        setMetrics({
-          totalSales: sales,
-          totalFees: fees,
-          totalCOGS: cogs,
-          netProfit: netProfit,
-          margin: margin,
-          inventoryCount: totalInventoryItems,
-          inStockScore: 98
-        });
-
+        console.log(`Loaded ${ordData.length} orders and ${invData.length} inventory items.`);
+        setAllOrders(ordData);
       } catch (error) {
-        console.error("Error fetching dashboard data:", error);
+        console.error("Error loading source data:", error);
       } finally {
         setLoading(false);
       }
     }
-
-    fetchData();
+    loadData();
   }, []);
+
+  // metrics calculation effect
+  useEffect(() => {
+    if (loading && allOrders.length === 0) return;
+
+    console.log(`Recalculating Metrics for range: ${dateRange.label}`, dateRange.start, dateRange.end);
+
+    const skuToCogs: Record<string, number> = {};
+    let totalInventoryItems = 0;
+    inventoryData.forEach(data => {
+      skuToCogs[data.sku] = data.cogs || 0;
+      totalInventoryItems++;
+    });
+
+    const start = new Date(dateRange.start);
+    start.setHours(0, 0, 0, 0);
+    const end = new Date(dateRange.end);
+    end.setHours(23, 59, 59, 999);
+
+    const ordersSnap = allOrders.filter(o => {
+      if (!o.purchase_date) return false;
+      const pDate = new Date(o.purchase_date);
+      return pDate >= start && pDate <= end;
+    });
+
+    console.log(`Filtered to ${ordersSnap.length} orders.`);
+
+    let sales = 0;
+    let fees = 0;
+    let cogs = 0;
+    let units = 0;
+    let detectedCurrency = '£';
+
+    // Detect currency from filtered set or fallback to first order in allOrders
+    const refOrder = ordersSnap.length > 0 ? ordersSnap[0] : (allOrders.length > 0 ? allOrders[0] : null);
+    if (refOrder?.currency) {
+      const code = refOrder.currency;
+      if (code === 'USD') detectedCurrency = '$';
+      else if (code === 'GBP') detectedCurrency = '£';
+      else if (code === 'EUR') detectedCurrency = '€';
+      else detectedCurrency = code;
+    }
+
+    ordersSnap.forEach(order => {
+      // Skip canceled
+      if (order.order_status === 'Canceled' || order.order_status === 'Cancelled') return;
+
+      sales += order.order_total || 0;
+      fees += order.estimated_fees || 0;
+
+      if (order.items && Array.isArray(order.items)) {
+        order.items.forEach(item => {
+          const itemCogs = skuToCogs[item.sku] || 0;
+          const qty = item.quantity || 0;
+          cogs += itemCogs * qty;
+          units += qty;
+        });
+      }
+    });
+
+    const netProfit = sales - fees - cogs;
+    const margin = sales > 0 ? (netProfit / sales) * 100 : 0;
+
+    setMetrics({
+      totalSales: sales,
+      totalFees: fees,
+      totalCOGS: cogs,
+      netProfit: netProfit,
+      margin: margin,
+      inventoryCount: totalInventoryItems,
+      inStockScore: 98,
+      unitsSold: units,
+      currency: detectedCurrency
+    });
+
+  }, [dateRange, allOrders, inventoryData, loading]);
 
   const salesData = [
     { name: 'Achieved', value: metrics.totalSales, color: '#F59E0B' }, // Amber-500
@@ -116,9 +170,9 @@ export default function Home() {
     { name: 'Costs', value: metrics.totalSales - metrics.netProfit, color: '#F3F4F6' },
   ];
 
-  const roiData = [
-    { name: 'ROI', value: 145, color: '#F59E0B' }, // Hardcoded for now
-    { name: 'Spend', value: 100, color: '#F3F4F6' },
+  const unitsData = [
+    { name: 'Sold', value: metrics.unitsSold, color: '#F59E0B' },
+    { name: 'Target', value: 1000 - metrics.unitsSold > 0 ? 1000 - metrics.unitsSold : 0, color: '#FEF3C7' }, // Mock target
   ];
 
   if (loading) {
@@ -134,9 +188,10 @@ export default function Home() {
         </div>
 
         <div className="bg-white rounded-lg p-1 border border-gray-200 flex text-sm font-medium">
-          <button className="px-4 py-1.5 rounded-md bg-gray-900 text-white shadow-sm">Month</button>
-          <button className="px-4 py-1.5 rounded-md text-gray-500 hover:text-gray-900">Quarter</button>
-          <button className="px-4 py-1.5 rounded-md text-gray-500 hover:text-gray-900">Year</button>
+          <DateRangePicker
+            currentRange={dateRange}
+            onRangeChange={setDateRange}
+          />
         </div>
       </div>
 
@@ -144,33 +199,33 @@ export default function Home() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <StatCard
           title="Total Sales"
-          value={`$${metrics.totalSales.toLocaleString(undefined, { maximumFractionDigits: 0 })}`}
+          value={`${metrics.currency}${metrics.totalSales.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`}
           change="-"
           changeType="positive"
           data={salesData}
-          centerLabel={`$${(metrics.totalSales / 1000).toFixed(1)}k`}
+          centerLabel={`${metrics.currency}${metrics.totalSales.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`}
           centerSubLabel="Real Revenue"
           subValue="Real-time from Orders"
         />
         <StatCard
           title="Net Profit"
-          value={`$${metrics.netProfit.toLocaleString(undefined, { maximumFractionDigits: 0 })}`}
+          value={`${metrics.currency}${metrics.netProfit.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`}
           change={`${metrics.margin.toFixed(1)}%`}
           changeType={metrics.netProfit >= 0 ? "positive" : "negative"}
           data={profitData}
-          centerLabel={`$${(metrics.netProfit / 1000).toFixed(1)}k`}
+          centerLabel={`${metrics.currency}${metrics.netProfit.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`}
           centerSubLabel="Net Profit"
-          subValue={`COGS: $${metrics.totalCOGS.toLocaleString(undefined, { maximumFractionDigits: 0 })}`}
+          subValue={`COGS: ${metrics.currency}${metrics.totalCOGS.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`}
         />
         <StatCard
-          title="ROI"
-          value="145%"
-          change="0.2%"
-          changeType="negative" // Just to show variety
-          data={roiData}
-          centerLabel="145%"
-          centerSubLabel="Return on Ad Spend"
-          subValue="Ad Spend: $12.5k (Est)"
+          title="Units Sold"
+          value={metrics.unitsSold.toLocaleString()}
+          change="-" // could calculate vs last month if data existed
+          changeType="positive"
+          data={unitsData}
+          centerLabel={metrics.unitsSold.toString()}
+          centerSubLabel="Units"
+          subValue="Total Items Shipped"
         />
       </div>
 

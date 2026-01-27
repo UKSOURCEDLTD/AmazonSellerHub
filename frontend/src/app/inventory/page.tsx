@@ -1,36 +1,100 @@
 "use client";
 
 import { useState, useEffect } from 'react';
-import { Search, Filter, AlertTriangle, CheckCircle, XCircle, RefreshCw } from 'lucide-react';
-import { collection, getDocs } from "firebase/firestore";
+import { Search, Filter, AlertTriangle, CheckCircle, XCircle, RefreshCw, ArrowUpDown } from 'lucide-react';
+import { useAccount } from "@/context/AccountContext";
 import { db } from "@/lib/firebase";
+import { collection, onSnapshot } from "firebase/firestore";
 
 export default function InventoryPage() {
+    const { selectedAccount, selectedMarketplace } = useAccount();
     const [filter, setFilter] = useState('All');
+    const [sortConfig, setSortConfig] = useState({ key: 'stock_level', direction: 'desc' }); // Default sort: Stock High to Low
     const [products, setProducts] = useState<any[]>([]);
     const [loading, setLoading] = useState(true);
-
-    const fetchInventory = async () => {
-        setLoading(true);
-        try {
-            // Fetch from Firestore
-            const querySnapshot = await getDocs(collection(db, "inventory"));
-            const data = querySnapshot.docs.map(doc => doc.data());
-            setProducts(data);
-        } catch (error) {
-            console.error("Error fetching inventory:", error);
-        } finally {
-            setLoading(false);
-        }
-    };
+    const [currentPage, setCurrentPage] = useState(1);
+    const [itemsPerPage, setItemsPerPage] = useState(25);
 
     useEffect(() => {
-        fetchInventory();
-    }, []);
+        setLoading(true);
+        // Real-time listener for Inventory
+        const q = collection(db, "inventory");
+        const unsubscribe = onSnapshot(q, (querySnapshot) => {
+            const data: any[] = [];
+            querySnapshot.forEach((doc) => {
+                data.push({ ...doc.data(), id: doc.id });
+            });
+
+            // Filter logic is applied on the full dataset client-side
+            // (Efficient enough for <5000 items)
+
+            // Apply Account/Marketplace filters here or in the render
+            let filtered = data;
+            if (selectedAccount) {
+                // filtered = filtered.filter((item: any) => item.accountId === selectedAccount.id);
+            }
+            if (selectedMarketplace) {
+                // filtered = filtered.filter((item: any) => item.marketplaceId === selectedMarketplace);
+            }
+
+            setProducts(data);
+            setLoading(false);
+        }, (error) => {
+            console.error("Error fetching inventory:", error);
+            setLoading(false);
+        });
+
+        // Cleanup subscription
+        return () => unsubscribe();
+    }, [selectedAccount, selectedMarketplace]);
+
+    // Reset to first page when filters change
+    useEffect(() => {
+        setCurrentPage(1);
+    }, [filter, selectedAccount, selectedMarketplace]);
 
     const filteredData = filter === 'All'
         ? products
         : products.filter(item => item.status === filter);
+
+    // Sorting Logic
+    const sortedData = [...filteredData].sort((a, b) => {
+        const { key, direction } = sortConfig;
+        let valueA = a[key] ?? '';
+        let valueB = b[key] ?? '';
+
+        // Handle numeric sorting
+        if (key === 'stock_level' || key === 'price') {
+            valueA = Number(valueA) || 0;
+            valueB = Number(valueB) || 0;
+        }
+        // Handle Date sorting
+        else if (key === 'last_sold_date') {
+            valueA = valueA ? new Date(valueA).getTime() : 0;
+            valueB = valueB ? new Date(valueB).getTime() : 0;
+        }
+        // Handle case-insensitive string sorting
+        else if (typeof valueA === 'string') {
+            valueA = valueA.toLowerCase();
+            valueB = valueB.toLowerCase();
+        }
+
+        if (valueA < valueB) {
+            return direction === 'asc' ? -1 : 1;
+        }
+        if (valueA > valueB) {
+            return direction === 'asc' ? 1 : -1;
+        }
+        return 0;
+    });
+
+    // Pagination Logic
+    const indexOfLastItem = currentPage * itemsPerPage;
+    const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+    const currentItems = sortedData.slice(indexOfFirstItem, indexOfLastItem);
+    const totalPages = Math.ceil(sortedData.length / itemsPerPage);
+
+    const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
     const getStatusColor = (status: string) => {
         switch (status) {
@@ -60,8 +124,29 @@ export default function InventoryPage() {
                 </div>
 
                 <div className="flex gap-2 w-full md:w-auto">
+                    <div className="flex items-center gap-2 mr-2">
+                        <span className="text-sm text-gray-500 hidden md:inline">Sort by:</span>
+                        <select
+                            value={`${sortConfig.key}-${sortConfig.direction}`}
+                            onChange={(e) => {
+                                const [key, direction] = e.target.value.split('-');
+                                setSortConfig({ key, direction });
+                            }}
+                            className="p-2 border border-gray-200 rounded-lg text-sm bg-white focus:outline-none focus:ring-2 focus:ring-amber-500/20"
+                        >
+                            <option value="stock_level-desc">Stock: High to Low</option>
+                            <option value="stock_level-asc">Stock: Low to High</option>
+                            <option value="price-desc">Price: High to Low</option>
+                            <option value="price-asc">Price: Low to High</option>
+                            <option value="last_sold_date-desc">Last Sold: Recent First</option>
+                            <option value="last_sold_date-asc">Last Sold: Oldest First</option>
+                            <option value="title-asc">Name: A-Z</option>
+                            <option value="title-desc">Name: Z-A</option>
+                        </select>
+                    </div>
+
                     <button
-                        onClick={fetchInventory}
+                        onClick={() => { console.log('Refreshed (Realtime)'); }}
                         className="p-2 border border-gray-200 rounded-lg hover:bg-gray-50 text-gray-500"
                     >
                         <RefreshCw size={18} className={loading ? "animate-spin" : ""} />
@@ -113,8 +198,11 @@ export default function InventoryPage() {
                                 <th className="px-6 py-4 font-semibold text-gray-500">Product Info</th>
                                 <th className="px-6 py-4 font-semibold text-gray-500">ASIN / SKU</th>
                                 <th className="px-6 py-4 font-semibold text-gray-500">Status</th>
+                                <th className="px-6 py-4 font-semibold text-gray-500">Last Sold</th>
                                 <th className="px-6 py-4 font-semibold text-right text-gray-500">Available</th>
                                 <th className="px-6 py-4 font-semibold text-right text-gray-500">Price</th>
+                                <th className="px-6 py-4 font-semibold text-right text-gray-500">Est. Fees</th>
+                                <th className="px-6 py-4 font-semibold text-right text-gray-500">Proceeds</th>
                             </tr>
                         </thead>
                         <tbody className="divide-y divide-gray-50">
@@ -125,7 +213,7 @@ export default function InventoryPage() {
                                     {products.length === 0 ? "Inventory syncing... run the script!" : "No products found for this filter."}
                                 </td></tr>
                             ) : (
-                                filteredData.map((item) => (
+                                currentItems.map((item) => (
                                     <tr key={item.id} className="hover:bg-gray-50/50 transition-colors">
                                         <td className="px-6 py-4">
                                             <div className="font-medium text-gray-900">{item.title || "Unknown Title"}</div>
@@ -142,11 +230,23 @@ export default function InventoryPage() {
                                                 {item.status || 'Healthy'}
                                             </div>
                                         </td>
+                                        <td className="px-6 py-4 text-sm text-gray-600">
+                                            {item.last_sold_date ? new Date(item.last_sold_date).toLocaleDateString() : '-'}
+                                        </td>
+
                                         <td className="px-6 py-4 text-right">
                                             <span className="font-medium text-gray-900">{item.stock_level}</span>
                                         </td>
                                         <td className="px-6 py-4 text-right">
-                                            <span className="font-medium text-gray-900">${item.price}</span>
+                                            <span className="font-medium text-gray-900">${Number(item.price || 0).toFixed(2)}</span>
+                                        </td>
+                                        <td className="px-6 py-4 text-right">
+                                            <span className="text-gray-500 text-xs">-${Number(item.estimated_fees || 0).toFixed(2)}</span>
+                                        </td>
+                                        <td className="px-6 py-4 text-right">
+                                            <span className={`font-bold ${Number(item.estimated_proceeds || 0) > 0 ? 'text-green-600' : 'text-red-500'}`}>
+                                                ${Number(item.estimated_proceeds || 0).toFixed(2)}
+                                            </span>
                                         </td>
                                     </tr>
                                 ))
@@ -154,6 +254,75 @@ export default function InventoryPage() {
                         </tbody>
                     </table>
                 </div>
+
+                {/* Pagination Controls */}
+                {!loading && filteredData.length > 0 && (
+                    <div className="flex flex-col md:flex-row justify-between items-center bg-gray-50 px-6 py-4 border-t border-gray-100 gap-4">
+                        <div className="flex items-center gap-2 text-sm text-gray-600">
+                            <span>Show rows:</span>
+                            <select
+                                value={itemsPerPage}
+                                onChange={(e) => {
+                                    setItemsPerPage(Number(e.target.value));
+                                    setCurrentPage(1);
+                                }}
+                                className="border border-gray-300 rounded px-2 py-1 bg-white focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500"
+                            >
+                                <option value={5}>5</option>
+                                <option value={25}>25</option>
+                                <option value={50}>50</option>
+                                <option value={100}>100</option>
+                            </select>
+                        </div>
+
+                        <div className="text-sm text-gray-500">
+                            Showing <span className="font-medium">{indexOfFirstItem + 1}</span> to <span className="font-medium">{Math.min(indexOfLastItem, filteredData.length)}</span> of <span className="font-medium">{filteredData.length}</span> results
+                        </div>
+
+                        <div className="flex items-center gap-1">
+                            <button
+                                onClick={() => paginate(currentPage - 1)}
+                                disabled={currentPage === 1}
+                                className="px-3 py-1 border border-gray-300 rounded bg-white text-gray-600 disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50"
+                            >
+                                Previous
+                            </button>
+                            {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
+                                // Logic to show window of pages around current page
+                                let pageNum = i + 1;
+                                if (totalPages > 5) {
+                                    if (currentPage <= 3) {
+                                        pageNum = i + 1;
+                                    } else if (currentPage >= totalPages - 2) {
+                                        pageNum = totalPages - 4 + i;
+                                    } else {
+                                        pageNum = currentPage - 2 + i;
+                                    }
+                                }
+
+                                return (
+                                    <button
+                                        key={pageNum}
+                                        onClick={() => paginate(pageNum)}
+                                        className={`w-8 h-8 rounded border text-sm font-medium transition-colors ${currentPage === pageNum
+                                            ? 'bg-amber-500 text-white border-amber-500'
+                                            : 'bg-white text-gray-600 border-gray-300 hover:bg-gray-50'
+                                            }`}
+                                    >
+                                        {pageNum}
+                                    </button>
+                                );
+                            })}
+                            <button
+                                onClick={() => paginate(currentPage + 1)}
+                                disabled={currentPage === totalPages}
+                                className="px-3 py-1 border border-gray-300 rounded bg-white text-gray-600 disabled:opacity-50 disabled:cursor-not-allowed hover:bg-gray-50"
+                            >
+                                Next
+                            </button>
+                        </div>
+                    </div>
+                )}
             </div>
         </div>
     );

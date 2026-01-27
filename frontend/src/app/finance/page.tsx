@@ -2,8 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Save, Calculator, AlertCircle, DollarSign } from 'lucide-react';
-import { db } from "@/lib/firebase";
-import { collection, getDocs, writeBatch, doc } from "firebase/firestore";
+
 
 interface Product {
     id: string;
@@ -19,22 +18,21 @@ export default function FinancePage() {
     const [unsavedChanges, setUnsavedChanges] = useState(false);
     const [loading, setLoading] = useState(true);
 
-    // Fetch Inventory from Firestore
+    // Fetch Inventory from Local API
     useEffect(() => {
         const fetchInventory = async () => {
             try {
-                const querySnapshot = await getDocs(collection(db, "inventory"));
-                const products: Product[] = querySnapshot.docs.map(doc => {
-                    const data = doc.data();
-                    return {
-                        id: doc.id,
-                        title: data.title || "Unknown Product",
-                        sku: data.sku || "N/A",
-                        image: data.image || "",
-                        current_cogs: data.cogs || 0, // Default to 0 if missing
-                        stock_level: data.stock_level || 0
-                    };
-                });
+                const res = await fetch('/api/inventory');
+                const inventoryData: any[] = await res.json();
+
+                const products: Product[] = inventoryData.map(data => ({
+                    id: data.id,
+                    title: data.title || "Unknown Product",
+                    sku: data.sku || "N/A",
+                    image: data.image || "",
+                    current_cogs: data.cogs || 0,
+                    stock_level: data.stock_level || 0
+                }));
                 setCogsData(products);
             } catch (error) {
                 console.error("Error fetching inventory:", error);
@@ -77,22 +75,8 @@ export default function FinancePage() {
     };
 
     const handleSave = async () => {
-        try {
-            const batch = writeBatch(db);
-            cogsData.forEach(product => {
-                // Only update if we have a value, relying on front-end state
-                // Ideally track dirty fields, but batching all is okay for small sets
-                const docRef = doc(db, "inventory", product.id);
-                batch.update(docRef, { cogs: product.current_cogs });
-            });
-
-            await batch.commit();
-            setUnsavedChanges(false);
-            alert("COGS updated successfully!");
-        } catch (error) {
-            console.error("Error saving COGS:", error);
-            alert("Failed to save changes.");
-        }
+        alert("Saving COGS is disabled in this local view mode.");
+        setUnsavedChanges(false);
     };
 
     if (loading) {

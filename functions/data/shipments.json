@@ -1,0 +1,1639 @@
+[
+  {
+    "id": "FBA18R48SSS5",
+    "shipment_name": "FBA STA (01/04/2025 15:28)-TMB8",
+    "destination": "TMB8",
+    "status": "CLOSED",
+    "items": 200,
+    "date": "FBA18R48SSS5",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA18R48SSS5",
+        "sku": "RH-ARTIMUD300",
+        "fulfillment_network_sku": "B07C921D1B",
+        "quantity_shipped": 200,
+        "quantity_received": 200,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA18TB9VWGP",
+    "shipment_name": "FBA STA (02/09/2025 13:45)-LBE1",
+    "destination": "LBE1",
+    "status": "CLOSED",
+    "items": 22,
+    "date": "FBA18TB9VWGP",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA18TB9VWGP",
+        "sku": "2N-SHYG-L6BC",
+        "fulfillment_network_sku": "X004K12LFN",
+        "quantity_shipped": 5,
+        "quantity_received": 5,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18TB9VWGP",
+        "sku": "4X-M8DT-PIJV",
+        "fulfillment_network_sku": "X004K111HR",
+        "quantity_shipped": 3,
+        "quantity_received": 3,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18TB9VWGP",
+        "sku": "7C-WGXR-ATCU",
+        "fulfillment_network_sku": "X004J4GN7D",
+        "quantity_shipped": 2,
+        "quantity_received": 2,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18TB9VWGP",
+        "sku": "AH-YSBO-TF3O",
+        "fulfillment_network_sku": "X004J4A8GF",
+        "quantity_shipped": 5,
+        "quantity_received": 5,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18TB9VWGP",
+        "sku": "QS-B0QN-FMSP",
+        "fulfillment_network_sku": "X004K0Y6ZR",
+        "quantity_shipped": 1,
+        "quantity_received": 1,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18TB9VWGP",
+        "sku": "S4-XC6Q-XDHH",
+        "fulfillment_network_sku": "X004K12NG5",
+        "quantity_shipped": 1,
+        "quantity_received": 1,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18TB9VWGP",
+        "sku": "VV-CISU-XRGM",
+        "fulfillment_network_sku": "X004K0Y6JD",
+        "quantity_shipped": 5,
+        "quantity_received": 5,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA18TZYPN4F",
+    "shipment_name": "FBA STA (03/01/2025 12:07)-RDU4",
+    "destination": "RDU4",
+    "status": "CLOSED",
+    "items": 39,
+    "date": "FBA18TZYPN4F",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA18TZYPN4F",
+        "sku": "CU-EO8Z-DSKN",
+        "fulfillment_network_sku": "X003DK0OKV",
+        "quantity_shipped": 30,
+        "quantity_received": 30,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18TZYPN4F",
+        "sku": "W8-RR4X-V5OT",
+        "fulfillment_network_sku": "X003DHHXLR",
+        "quantity_shipped": 9,
+        "quantity_received": 9,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA18VL310WK",
+    "shipment_name": "FBA STA (03/20/2025 09:13)-TMB8",
+    "destination": "TMB8",
+    "status": "CLOSED",
+    "items": 30,
+    "date": "FBA18VL310WK",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA18VL310WK",
+        "sku": "7K-I5QW-QXM1",
+        "fulfillment_network_sku": "B07PM8WZGZ",
+        "quantity_shipped": 30,
+        "quantity_received": 1,
+        "quantity_in_case": 0,
+        "prep_details": []
+      }
+    ]
+  },
+  {
+    "id": "FBA18W4GHSPW",
+    "shipment_name": "FBA STA (04/08/2025 09:55)-PBI3",
+    "destination": "PBI3",
+    "status": "CLOSED",
+    "items": 40,
+    "date": "FBA18W4GHSPW",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA18W4GHSPW",
+        "sku": "RH-ARTIMUD300",
+        "fulfillment_network_sku": "B07C921D1B",
+        "quantity_shipped": 40,
+        "quantity_received": 40,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA18VZJZGWM",
+    "shipment_name": "FBA STA (04/02/2025 12:22)-TMB8",
+    "destination": "TMB8",
+    "status": "CLOSED",
+    "items": 80,
+    "date": "FBA18VZJZGWM",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA18VZJZGWM",
+        "sku": "RH-ARTIMUD300",
+        "fulfillment_network_sku": "B07C921D1B",
+        "quantity_shipped": 80,
+        "quantity_received": 111,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA18V9TPCY1",
+    "shipment_name": "FBA STA (03/12/2025 13:35)-RDU4",
+    "destination": "RDU4",
+    "status": "CLOSED",
+    "items": 150,
+    "date": "FBA18V9TPCY1",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA18V9TPCY1",
+        "sku": "SP500",
+        "fulfillment_network_sku": "X003DJMNHT",
+        "quantity_shipped": 40,
+        "quantity_received": 68,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "Polybagging",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18V9TPCY1",
+        "sku": "SS500",
+        "fulfillment_network_sku": "B0BCC1CCNQ",
+        "quantity_shipped": 40,
+        "quantity_received": 40,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Polybagging",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18V9TPCY1",
+        "sku": "STR500",
+        "fulfillment_network_sku": "X003DK0DI9",
+        "quantity_shipped": 40,
+        "quantity_received": 11,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "Polybagging",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18V9TPCY1",
+        "sku": "UG-2F0B-F5GQ",
+        "fulfillment_network_sku": "X003DC2TFH",
+        "quantity_shipped": 30,
+        "quantity_received": 30,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA18WWPPLPW",
+    "shipment_name": "FBA STA (05/01/2025 12:42)-TMB8",
+    "destination": "TMB8",
+    "status": "CANCELLED",
+    "items": 30,
+    "date": "FBA18WWPPLPW",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA18WWPPLPW",
+        "sku": "Z7-7G68-6OEK",
+        "fulfillment_network_sku": "X004O707YZ",
+        "quantity_shipped": 30,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA18VZS3CQ6",
+    "shipment_name": "FBA STA (04/02/2025 18:12)-TMB8",
+    "destination": "TMB8",
+    "status": "CLOSED",
+    "items": 127,
+    "date": "FBA18VZS3CQ6",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA18VZS3CQ6",
+        "sku": "23-EL2Y-RR79",
+        "fulfillment_network_sku": "X004MRZHND",
+        "quantity_shipped": 6,
+        "quantity_received": 6,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VZS3CQ6",
+        "sku": "SP500",
+        "fulfillment_network_sku": "X003DJMNHT",
+        "quantity_shipped": 1,
+        "quantity_received": 1,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "Polybagging",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VZS3CQ6",
+        "sku": "T5-QXD8-KPKZ",
+        "fulfillment_network_sku": "X004MRL4WB",
+        "quantity_shipped": 20,
+        "quantity_received": 20,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VZS3CQ6",
+        "sku": "XM-6O19-YLRS",
+        "fulfillment_network_sku": "X0045UPJCL",
+        "quantity_shipped": 40,
+        "quantity_received": 40,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VZS3CQ6",
+        "sku": "ZD-3HSL-W7W1",
+        "fulfillment_network_sku": "X00423MASR",
+        "quantity_shipped": 40,
+        "quantity_received": 40,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VZS3CQ6",
+        "sku": "ZX-YHJJ-3XM8",
+        "fulfillment_network_sku": "X003HTZ3BN",
+        "quantity_shipped": 20,
+        "quantity_received": 20,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA18WWPLW93",
+    "shipment_name": "FBA STA (05/01/2025 11:35)-WBW2",
+    "destination": "WBW2",
+    "status": "CLOSED",
+    "items": 19,
+    "date": "FBA18WWPLW93",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA18WWPLW93",
+        "sku": "1A-EGP6-WJSO",
+        "fulfillment_network_sku": "X004NQRZSD",
+        "quantity_shipped": 2,
+        "quantity_received": 1,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18WWPLW93",
+        "sku": "1I-OQV3-867J",
+        "fulfillment_network_sku": "B0CZ9LC326",
+        "quantity_shipped": 1,
+        "quantity_received": 1,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18WWPLW93",
+        "sku": "20-O28O-3LAD",
+        "fulfillment_network_sku": "X004NQN0M3",
+        "quantity_shipped": 1,
+        "quantity_received": 1,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18WWPLW93",
+        "sku": "7C-WYJC-76GI",
+        "fulfillment_network_sku": "X004NQDZ05",
+        "quantity_shipped": 1,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18WWPLW93",
+        "sku": "7D-0FFE-YUIC",
+        "fulfillment_network_sku": "X004NQ6ZLV",
+        "quantity_shipped": 1,
+        "quantity_received": 1,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "Polybagging",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "SetCreation",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18WWPLW93",
+        "sku": "7T-MAI9-PII1",
+        "fulfillment_network_sku": "X004NQDXYD",
+        "quantity_shipped": 1,
+        "quantity_received": 1,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "Polybagging",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "SetCreation",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18WWPLW93",
+        "sku": "F5-6ZHZ-9BVH",
+        "fulfillment_network_sku": "X004NQE0S1",
+        "quantity_shipped": 3,
+        "quantity_received": 3,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "Polybagging",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "SetCreation",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18WWPLW93",
+        "sku": "L0-JWP9-B85C",
+        "fulfillment_network_sku": "B0BRHVFN7B",
+        "quantity_shipped": 1,
+        "quantity_received": 1,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18WWPLW93",
+        "sku": "Y7-FJ2B-KRSB",
+        "fulfillment_network_sku": "B0BKLLF2FZ",
+        "quantity_shipped": 8,
+        "quantity_received": 8,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA18VDQGXBN",
+    "shipment_name": "FBA STA (03/14/2025 18:09)-RYY2",
+    "destination": "RYY2",
+    "status": "CLOSED",
+    "items": 165,
+    "date": "FBA18VDQGXBN",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA18VDQGXBN",
+        "sku": "5C-POZC-NWML",
+        "fulfillment_network_sku": "X004K1X32D",
+        "quantity_shipped": 10,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VDQGXBN",
+        "sku": "5L-TJI6-RRA4",
+        "fulfillment_network_sku": "X004K0YUYJ",
+        "quantity_shipped": 6,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VDQGXBN",
+        "sku": "63-AR5G-IGRJ",
+        "fulfillment_network_sku": "X004KANA27",
+        "quantity_shipped": 7,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VDQGXBN",
+        "sku": "7N-EZLN-UURH",
+        "fulfillment_network_sku": "X004KANDHT",
+        "quantity_shipped": 4,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VDQGXBN",
+        "sku": "8O-XQ06-ATXW",
+        "fulfillment_network_sku": "X004JHU4RP",
+        "quantity_shipped": 2,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VDQGXBN",
+        "sku": "GQ-5EJP-V6RG",
+        "fulfillment_network_sku": "X004KACO5B",
+        "quantity_shipped": 4,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VDQGXBN",
+        "sku": "I3-00P6-UNBV",
+        "fulfillment_network_sku": "X004KAPET9",
+        "quantity_shipped": 7,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VDQGXBN",
+        "sku": "KD-6QZ9-3JJE",
+        "fulfillment_network_sku": "X004KANDCT",
+        "quantity_shipped": 10,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VDQGXBN",
+        "sku": "KK-4IQT-TN8X",
+        "fulfillment_network_sku": "X004KAP9DP",
+        "quantity_shipped": 8,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VDQGXBN",
+        "sku": "P4-PM1Z-F5RI",
+        "fulfillment_network_sku": "X004K25HRL",
+        "quantity_shipped": 4,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VDQGXBN",
+        "sku": "S2-782Q-7XYG",
+        "fulfillment_network_sku": "X004K2D133",
+        "quantity_shipped": 25,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VDQGXBN",
+        "sku": "SQ-MNUO-AT90",
+        "fulfillment_network_sku": "X004KAUWAF",
+        "quantity_shipped": 2,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VDQGXBN",
+        "sku": "TZ-8RHU-8HO3",
+        "fulfillment_network_sku": "X004K15DNZ",
+        "quantity_shipped": 35,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VDQGXBN",
+        "sku": "UU-MUWX-A0DM",
+        "fulfillment_network_sku": "X004KAUHM3",
+        "quantity_shipped": 1,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VDQGXBN",
+        "sku": "V5-GARK-E0N3",
+        "fulfillment_network_sku": "X004K25MG7",
+        "quantity_shipped": 18,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VDQGXBN",
+        "sku": "XA-U1TO-G1BB",
+        "fulfillment_network_sku": "X004KAWBEP",
+        "quantity_shipped": 2,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18VDQGXBN",
+        "sku": "ZW-0V07-YN8A",
+        "fulfillment_network_sku": "X004K0NFAT",
+        "quantity_shipped": 20,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA18XMMCCLV",
+    "shipment_name": "FBA STA (05/26/2025 18:42)-TMB8",
+    "destination": "TMB8",
+    "status": "CLOSED",
+    "items": 30,
+    "date": "FBA18XMMCCLV",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA18XMMCCLV",
+        "sku": "Z7-7G68-6OEK",
+        "fulfillment_network_sku": "X004O707YZ",
+        "quantity_shipped": 30,
+        "quantity_received": 30,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA18XMN27CT",
+    "shipment_name": "FBA STA (05/26/2025 18:31)-TMB8",
+    "destination": "TMB8",
+    "status": "CLOSED",
+    "items": 98,
+    "date": "FBA18XMN27CT",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA18XMN27CT",
+        "sku": "W8-RR4X-V5OT",
+        "fulfillment_network_sku": "X003DHHXLR",
+        "quantity_shipped": 18,
+        "quantity_received": 17,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18XMN27CT",
+        "sku": "XM-6O19-YLRS",
+        "fulfillment_network_sku": "X0045UPJCL",
+        "quantity_shipped": 40,
+        "quantity_received": 40,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA18XMN27CT",
+        "sku": "ZD-3HSL-W7W1",
+        "fulfillment_network_sku": "X00423MASR",
+        "quantity_shipped": 40,
+        "quantity_received": 40,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA18WDQL59Y",
+    "shipment_name": "FBA STA (04/16/2025 06:59)-RDU4",
+    "destination": "RDU4",
+    "status": "CLOSED",
+    "items": 30,
+    "date": "FBA18WDQL59Y",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA18WDQL59Y",
+        "sku": "7K-I5QW-QXM1",
+        "fulfillment_network_sku": "B07PM8WZGZ",
+        "quantity_shipped": 30,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": []
+      }
+    ]
+  },
+  {
+    "id": "FBA18YN6M3FQ",
+    "shipment_name": "FBA STA (06/28/2025 07:56)-PBI3",
+    "destination": "PBI3",
+    "status": "CLOSED",
+    "items": 30,
+    "date": "FBA18YN6M3FQ",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA18YN6M3FQ",
+        "sku": "UG-2F0B-F5GQ",
+        "fulfillment_network_sku": "X003DC2TFH",
+        "quantity_shipped": 30,
+        "quantity_received": 23,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA1903SF867",
+    "shipment_name": "FBA STA (08/13/2025 08:01)-PBI3",
+    "destination": "PBI3",
+    "status": "CANCELLED",
+    "items": 30,
+    "date": "FBA1903SF867",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA1903SF867",
+        "sku": "Z7-7G68-6OEK",
+        "fulfillment_network_sku": "X004O707YZ",
+        "quantity_shipped": 30,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA1903VFQ70",
+    "shipment_name": "FBA STA (08/13/2025 08:08)-PBI3",
+    "destination": "PBI3",
+    "status": "CANCELLED",
+    "items": 30,
+    "date": "FBA1903VFQ70",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA1903VFQ70",
+        "sku": "7K-I5QW-QXM1",
+        "fulfillment_network_sku": "B07PM8WZGZ",
+        "quantity_shipped": 30,
+        "quantity_received": 0,
+        "quantity_in_case": 0,
+        "prep_details": []
+      }
+    ]
+  },
+  {
+    "id": "FBA18ZRVWC5N",
+    "shipment_name": "FBA STA (08/03/2025 09:31)-PBI3",
+    "destination": "PBI3",
+    "status": "CLOSED",
+    "items": 40,
+    "date": "FBA18ZRVWC5N",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA18ZRVWC5N",
+        "sku": "XM-6O19-YLRS",
+        "fulfillment_network_sku": "X0045UPJCL",
+        "quantity_shipped": 40,
+        "quantity_received": 40,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA1903XY5Z6",
+    "shipment_name": "FBA STA (08/13/2025 09:35)-PBI3",
+    "destination": "PBI3",
+    "status": "CLOSED",
+    "items": 30,
+    "date": "FBA1903XY5Z6",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA1903XY5Z6",
+        "sku": "Z7-7G68-6OEK",
+        "fulfillment_network_sku": "X004O707YZ",
+        "quantity_shipped": 30,
+        "quantity_received": 30,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA190SXCJMR",
+    "shipment_name": "FBA STA (08/31/2025 11:34)-PBI3",
+    "destination": "PBI3",
+    "status": "CLOSED",
+    "items": 24,
+    "date": "FBA190SXCJMR",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA190SXCJMR",
+        "sku": "STR500",
+        "fulfillment_network_sku": "X003DK0DI9",
+        "quantity_shipped": 24,
+        "quantity_received": 24,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "Polybagging",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA190PVPKJN",
+    "shipment_name": "FBA STA (08/28/2025 12:36)-TMB8",
+    "destination": "TMB8",
+    "status": "CLOSED",
+    "items": 40,
+    "date": "FBA190PVPKJN",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA190PVPKJN",
+        "sku": "XM-6O19-YLRS",
+        "fulfillment_network_sku": "X0045UPJCL",
+        "quantity_shipped": 40,
+        "quantity_received": 40,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA1903WS8X1",
+    "shipment_name": "FBA STA (08/13/2025 09:03)-PBI3",
+    "destination": "PBI3",
+    "status": "CLOSED",
+    "items": 24,
+    "date": "FBA1903WS8X1",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA1903WS8X1",
+        "sku": "Hydro500AMZLBL",
+        "fulfillment_network_sku": "X004SSJIN1",
+        "quantity_shipped": 15,
+        "quantity_received": 15,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA1903WS8X1",
+        "sku": "W8-RR4X-V5OT",
+        "fulfillment_network_sku": "X003DHHXLR",
+        "quantity_shipped": 9,
+        "quantity_received": 8,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA1936GG6L0",
+    "shipment_name": "FBA STA (11/02/2025 15:56)-PBI3",
+    "destination": "PBI3",
+    "status": "CLOSED",
+    "items": 40,
+    "date": "FBA1936GG6L0",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA1936GG6L0",
+        "sku": "RH-ARTIMUD300",
+        "fulfillment_network_sku": "B07C921D1B",
+        "quantity_shipped": 40,
+        "quantity_received": 40,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA192XWHNHG",
+    "shipment_name": "FBA STA (10/26/2025 14:01)-PBI3",
+    "destination": "PBI3",
+    "status": "CLOSED",
+    "items": 41,
+    "date": "FBA192XWHNHG",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA192XWHNHG",
+        "sku": "XM-6O19-YLRS",
+        "fulfillment_network_sku": "X0045UPJCL",
+        "quantity_shipped": 40,
+        "quantity_received": 40,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA192XWHNHG",
+        "sku": "XY-8X1K-CWFV",
+        "fulfillment_network_sku": "X003T6I71H",
+        "quantity_shipped": 1,
+        "quantity_received": 1,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "Polybagging",
+            "PrepOwner": "SELLER"
+          },
+          {
+            "PrepInstruction": "SetCreation",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA193H0KYZW",
+    "shipment_name": "FBA STA (11/09/2025 14:58)-TMB8",
+    "destination": "TMB8",
+    "status": "CLOSED",
+    "items": 45,
+    "date": "FBA193H0KYZW",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA193H0KYZW",
+        "sku": "CU-EO8Z-DSKN",
+        "fulfillment_network_sku": "X003DK0OKV",
+        "quantity_shipped": 2,
+        "quantity_received": 2,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA193H0KYZW",
+        "sku": "RH-ARTIMUD300",
+        "fulfillment_network_sku": "B07C921D1B",
+        "quantity_shipped": 40,
+        "quantity_received": 40,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      },
+      {
+        "shipment_id": "FBA193H0KYZW",
+        "sku": "UG-2F0B-F5GQ",
+        "fulfillment_network_sku": "X003DC2TFH",
+        "quantity_shipped": 3,
+        "quantity_received": 3,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA193S4J6XN",
+    "shipment_name": "FBA STA (11/16/2025 14:20)-LBE1",
+    "destination": "LBE1",
+    "status": "CLOSED",
+    "items": 30,
+    "date": "FBA193S4J6XN",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA193S4J6XN",
+        "sku": "UG-2F0B-F5GQ",
+        "fulfillment_network_sku": "X003DC2TFH",
+        "quantity_shipped": 30,
+        "quantity_received": 30,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "Labeling",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FBA1947KPNDN",
+    "shipment_name": "FBA STA (11/28/2025 14:13)-LBE1",
+    "destination": "LBE1",
+    "status": "CLOSED",
+    "items": 40,
+    "date": "FBA1947KPNDN",
+    "created_date": "2026-01-27",
+    "carrier": "Unknown",
+    "tracking": "Pending",
+    "accountId": "default_account_1",
+    "marketplaceId": "US",
+    "updated_at": "2026-01-27T11:46:19.656882",
+    "shipment_items": [
+      {
+        "shipment_id": "FBA1947KPNDN",
+        "sku": "artimud300dupe",
+        "fulfillment_network_sku": "B07C921D1B",
+        "quantity_shipped": 40,
+        "quantity_received": 40,
+        "quantity_in_case": 0,
+        "prep_details": [
+          {
+            "PrepInstruction": "NoPrep",
+            "PrepOwner": "SELLER"
+          }
+        ]
+      }
+    ]
+  }
+]

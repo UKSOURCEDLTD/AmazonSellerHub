@@ -1,16 +1,4 @@
 {
-    "functions": {
-        "source": "functions",
-        "codebase": "default",
-        "ignore": [
-            ".git",
-            ".gitignore",
-            "__pycache__",
-            "venv",
-            ".env"
-        ],
-        "runtime": "python311"
-    },
     "hosting": {
         "public": "frontend/out",
         "ignore": [
@@ -20,15 +8,24 @@
         ],
         "rewrites": [
             {
-                "source": "/api/manual_amazon_sync",
-                "function": "manual_amazon_sync"
-            },
-            {
                 "source": "**",
                 "destination": "/index.html"
             }
         ]
     },
+    "functions": [
+        {
+            "source": "functions",
+            "codebase": "default",
+            "ignore": [
+                "venv",
+                ".git",
+                "firebase-debug.log",
+                "firebase-debug.log.*"
+            ],
+            "runtime": "python311"
+        }
+    ],
     "firestore": {
         "rules": "firestore.rules",
         "indexes": "firestore.indexes.json"
