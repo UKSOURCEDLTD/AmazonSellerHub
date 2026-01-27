@@ -47,7 +47,7 @@ def sync_amazon_data():
                 mp_id = marketplace_id_map.get(mp)
                 
                 # We need a stable ID for the hidden account so it updates the same docs
-                hidden_account_id = "default_hidden_account"
+                hidden_account_id = "default_account_1"
                 
                 try:
                     sync_inventory_from_api(access_token, hidden_account_id, mp_id, mp)
