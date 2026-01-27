@@ -752,76 +752,8 @@ def fetch_order_items(access_token, amazon_order_id, client_creds=None):
     print(f"    Failed to fetch items for {amazon_order_id} after {max_retries} retries.")
     return [], None
 
-def sync_pricing_from_api(access_token, marketplace_id, asins):
-    """
-    Fetches pricing for ASINs in batches of 20 using getPricing endpoint.
-    Returns a dict: { 'ASIN': price_float }
-    """
-    url = f"{SP_API_ENDPOINT}/products/pricing/v0/price"
-    price_map = {}
-    
-    # Batch ASINs (Limit 20)
-    chunk_size = 20
-    chunks = [asins[i:i + chunk_size] for i in range(0, len(asins), chunk_size)]
-    
-    # print(f"    [Pricing] Syncing {len(asins)} items in {len(chunks)} batches...")
-    
-    for chunk in chunks:
-        params = {
-            "MarketplaceId": marketplace_id,
-            "ItemType": "Asin",
-            "Asins": ",".join(chunk)
-        }
-        
-        # Retry mechanism for batch
-        max_retries = 3
-        for attempt in range(max_retries):
-            try:
-                headers = sign_request('GET', url, access_token, params=params)
-                response = requests.get(url, headers=headers, params=params)
-                
-                if response.status_code == 200:
-                    payload = response.json().get('payload', [])
-                    for item in payload:
-                        asin = item.get('ASIN')
-                        product = item.get('Product', {})
-                        
-                        # Strategy: BuyingPrice -> RegularPrice -> Offers
-                        price = 0
-                        
-                        offers = product.get('Offers', [])
-                        if offers:
-                            # 1. Try ListingPrice
-                            price_data = offers[0].get('BuyingPrice', {}).get('ListingPrice', {})
-                            price = price_data.get('Amount')
-                            
-                            # 2. Try RegularPrice if ListingPrice is missing
-                            if not price:
-                                price_data = offers[0].get('RegularPrice', {})
-                                price = price_data.get('Amount')
 
-                        if price:
-                            price_map[asin] = float(price)
-                    break # Success, exit retry loop
-                    
-                elif response.status_code == 429:
-                    # Throttle
-                    wait_time = 2 ** (attempt + 1)
-                    print(f"    [Pricing] Throttled. Retrying in {wait_time}s...")
-                    time.sleep(wait_time)
-                    continue
-                else:
-                    print(f"    [Pricing] Batch failed: {response.status_code} {response.text}")
-                    break # Fatal error for this batch
-                    
-            except Exception as e:
-                print(f"    [Pricing] Error in batch attempt {attempt}: {e}")
-                time.sleep(1)
-        
-        # Throttle between chunks
-        time.sleep(0.5)
-            
-    return price_map
+
 
 def get_lwa_access_token(client_id, client_secret, refresh_token):
     payload = {
