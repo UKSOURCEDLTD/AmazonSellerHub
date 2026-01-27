@@ -18,7 +18,14 @@ import firebase_admin
 from firebase_admin import firestore
 
 # Firestore Client
-db = firestore.client()
+# Firestore Client
+db = None
+
+def get_db():
+    global db
+    if db is None:
+        db = firestore.client()
+    return db
 
 def save_json(filename, data):
     """
@@ -28,7 +35,7 @@ def save_json(filename, data):
     collection_name = filename.replace('.json', '')
     print(f"    Syncing {len(data)} records to Firestore collection '{collection_name}'...")
     
-    batch = db.batch()
+    batch = get_db().batch()
     batch_count = 0
     total_count = 0
     
@@ -37,10 +44,10 @@ def save_json(filename, data):
         doc_id = str(item.get('id')) if item.get('id') else None
         
         if doc_id:
-            doc_ref = db.collection(collection_name).document(doc_id)
+            doc_ref = get_db().collection(collection_name).document(doc_id)
             batch.set(doc_ref, item, merge=True) # Merge allows updating fields without wiping
         else:
-            doc_ref = db.collection(collection_name).document()
+            doc_ref = get_db().collection(collection_name).document()
             batch.set(doc_ref, item, merge=True)
             
         batch_count += 1
@@ -50,7 +57,7 @@ def save_json(filename, data):
             batch.commit()
             total_count += batch_count
             batch_count = 0
-            batch = db.batch()
+            batch = get_db().batch()
             # print(f"      Committed batch of 400...")
 
     if batch_count > 0:
@@ -66,7 +73,7 @@ def load_json(filename):
     For sync logic, we often need full current state to compare.
     """
     collection_name = filename.replace('.json', '')
-    docs = db.collection(collection_name).stream()
+    docs = get_db().collection(collection_name).stream()
     data = []
     for doc in docs:
         item = doc.to_dict()
@@ -256,41 +263,6 @@ def sync_amazon_data():
                 except Exception as e:
                     print(f"    Listings Report Sync Failed: {e}")
 
-                # --- NEW: Sync Live Pricing (Buy Box / Active) ---
-                try:
-                    # Collect all ASINs
-                    print("    Fetching Live Pricing...")
-                    asins = list(set([item['asin'] for item in existing_inventory if item.get('asin')]))
-                    
-                    if asins:
-                        asin_prices = sync_pricing_from_api(access_token, mp_id, asins)
-                        
-                        # Enrich Inventory (Update with live data if available)
-                        for item in existing_inventory:
-                            asin = item.get('asin')
-                            if asin in asin_prices:
-                                price_val = asin_prices[asin]
-                                # Only overwrite if > 0 (Live price usually better if active)
-                                if price_val > 0:
-                                    item['price'] = price_val
-                                    
-                                    # Estimate Fees (Simple 15% rule for now as requested)
-                                    fees_est = price_val * 0.15
-                                    proceeds_est = price_val - fees_est
-                                    
-                                    item['estimated_fees'] = round(fees_est, 2)
-                                    item['estimated_proceeds'] = round(proceeds_est, 2)
-                            else:
-                                # Keep existing (Listings Report) or default to 0
-                                if 'price' not in item:
-                                    item['price'] = 0
-                                    item['estimated_fees'] = 0
-                                    item['estimated_proceeds'] = 0
-                        
-                        save_json("inventory.json", existing_inventory)
-                except Exception as e:
-                     print(f"    Pricing Sync Failed: {e}")
-                # -----------------------------------------
 
                 try:
                     client_creds = {

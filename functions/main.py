@@ -24,7 +24,7 @@ SECRETS = [
     "LWA_AWS_SECRET_KEY"
 ]
 
-@https_fn.on_request(secrets=SECRETS, timeout_sec=540, memory_options=options.MemoryOption.GB_1)
+@https_fn.on_request(secrets=SECRETS, timeout_sec=540, memory=options.MemoryOption.GB_1)
 def sync_amazon_data_http(req: https_fn.Request) -> https_fn.Response:
     """
     HTTP Trigger for manual sync.
@@ -38,7 +38,7 @@ def sync_amazon_data_http(req: https_fn.Request) -> https_fn.Response:
         logger.error(f"Manual Sync Failed: {e}")
         return https_fn.Response(f"Sync failed: {str(e)}", status=500)
 
-@pubsub_fn.on_message_published(topic="daily-sync-topic", secrets=SECRETS, timeout_sec=540, memory_options=options.MemoryOption.GB_1)
+@pubsub_fn.on_message_published(topic="daily-sync-topic", secrets=SECRETS, timeout_sec=540, memory=options.MemoryOption.GB_1)
 def sync_amazon_data_scheduled(event: pubsub_fn.CloudEvent[pubsub_fn.MessagePublishedData]) -> None:
     """
     Scheduled Trigger (via Pub/Sub format).
