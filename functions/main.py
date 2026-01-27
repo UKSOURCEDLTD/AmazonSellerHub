@@ -15,7 +15,14 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
 # Define Secrets
-SECRETS = ["LWA_CLIENT_ID", "LWA_CLIENT_SECRET", "SP_API_REFRESH_TOKEN"]
+# Define Secrets
+SECRETS = [
+    "LWA_CLIENT_ID", 
+    "LWA_CLIENT_SECRET", 
+    "SP_API_REFRESH_TOKEN",
+    "LWA_AWS_ACCESS_KEY",
+    "LWA_AWS_SECRET_KEY"
+]
 
 @https_fn.on_request(secrets=SECRETS, timeout_sec=540, memory_options=options.MemoryOption.GB_1)
 def sync_amazon_data_http(req: https_fn.Request) -> https_fn.Response:
