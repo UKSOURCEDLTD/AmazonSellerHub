@@ -17,11 +17,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
       
-      - name: Authenticate to Google Cloud
-        uses: google-github-actions/auth@v2
-        with:
-          credentials_json: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
-      
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -55,10 +50,9 @@ jobs:
           cd functions
           pip install -r requirements.txt
       
-      - name: Deploy to Firebase
-        uses: FirebaseExtended/action-hosting-deploy@v0
+      - name: Deploy to Firebase (Hosting + Functions)
+        uses: w9jds/firebase-action@master
         with:
-          channelId: live
-          projectId: amz-seller-hub
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
-          entryPoint: .
+          args: deploy --only hosting,functions
+        env:
+          GCP_SA_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
