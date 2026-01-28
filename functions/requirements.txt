@@ -1,8 +1,7 @@
-firebase-admin>=6.2.0
-functions-framework==3.*
+firebase-admin>=6.5.0
 requests>=2.31.0
-python-dotenv>=1.0.0
-flask>=2.2.5
-flask-cors>=3.0.10
-emoji>=2.8.0
-firebase-functions>=0.1.0
+python-dotenv
+flask>=3.0.0
+flask-cors
+emoji
+firebase-functions
