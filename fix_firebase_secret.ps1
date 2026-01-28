@@ -16,7 +16,8 @@ if ($choice -eq "1") {
         $jsonContent = Get-Content $filePath -Raw
         Write-Host "`nUploading service account JSON to GitHub..." -ForegroundColor Yellow
         $jsonContent | gh secret set FIREBASE_SERVICE_ACCOUNT
-        Write-Host "Success! FIREBASE_SERVICE_ACCOUNT updated." -ForegroundColor Green
+        $jsonContent | gh secret set GCP_SA_KEY
+        Write-Host "Success! FIREBASE_SERVICE_ACCOUNT and GCP_SA_KEY updated." -ForegroundColor Green
     }
     else {
         Write-Host "File not found: $filePath" -ForegroundColor Red
@@ -40,7 +41,8 @@ elseif ($choice -eq "2") {
         $null = $jsonContent | ConvertFrom-Json
         Write-Host "`nJSON is valid! Uploading to GitHub..." -ForegroundColor Yellow
         $jsonContent | gh secret set FIREBASE_SERVICE_ACCOUNT
-        Write-Host "Success! FIREBASE_SERVICE_ACCOUNT updated." -ForegroundColor Green
+        $jsonContent | gh secret set GCP_SA_KEY
+        Write-Host "Success! FIREBASE_SERVICE_ACCOUNT and GCP_SA_KEY updated." -ForegroundColor Green
     }
     catch {
         Write-Host "`nERROR: Invalid JSON format!" -ForegroundColor Red

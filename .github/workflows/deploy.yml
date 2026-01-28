@@ -17,6 +17,12 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
 
+      - id: 'auth'
+        uses: 'google-github-actions/auth@v2'
+        with:
+          workload_identity_provider: 'projects/328218260604/locations/global/workloadIdentityPools/github-pool/providers/github-provider'
+          service_account: 'github-action-sa@amz-seller-hub.iam.gserviceaccount.com'
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -50,5 +56,4 @@ jobs:
         with:
           args: deploy --only hosting,functions
         env:
-          FIREBASE_SERVICE_ACCOUNT_AMZ_SELLER_HUB: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
           PROJECT_ID: amz-seller-hub
