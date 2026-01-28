@@ -52,9 +52,11 @@ jobs:
           cd functions
           pip install -r requirements.txt
 
+      - name: Install Firebase CLI
+        run: npm install -g firebase-tools
+
       - name: Deploy to Firebase
-        uses: firebase/firebase-tools-action@v0
-        with:
-          args: deploy --only hosting,functions
+        run: firebase deploy --only hosting,functions --project amz-seller-hub
         env:
-          PROJECT_ID: amz-seller-hub
+          # Use the credentials from the auth step (automatically set by google-github-actions/auth)
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth.outputs.credentials_file_path }}
